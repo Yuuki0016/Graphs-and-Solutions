@@ -47,7 +47,7 @@
                 <!--x(x+2)(x-2)=x³-4x-->
                 <img class="FunctionImages" src="3rdDegreeFunction.png" alt="3rdDegreeFunction">
                 <div class="FunctionText">
-                    <p>Funções polinomiais seguem um padrão, onde seu grau é definido pelo maior expoente de uma variável.</p>
+                    <p>O grau de uma função polinomial é definido pelo maior expoente de uma variável.</p>
                     <p>Por exemplo: y=x<sup>3</sup>+2x<sup>2</sup>+x+5 é uma função de 3°grau.</p>
                     <p>Já y=3x<sup>5</sup>+4x<sup>4</sup>-2x<sup>2</sup>+3 é uma função de 5°grau.</p>
                     <a href="PolynomialFunctions.html" class="Link">Saiba mais sobre aqui</a>
@@ -68,18 +68,34 @@
             </div>
             <br><br>
 
-            <!--Root Functions Section-->
+            <!--Square Root Functions Section-->
             <div id="RootFunctions">
-                <h2>Funções Racionais</h2>
-                <img class="FunctionImages" src="RationalFunction.png" alt="RationalFunction">
+                <h2>Funções Irracionais</h2>
+                <img class="FunctionImages" src="RootFunction.png" alt="RootFunction">
                 <div class="FunctionText">
-                    <p>Funções racionais são caracterizadas pela forma f(x)=<sup>P(x)</sup>&frasl;<sub>Q(x)</sub>. Portanto, existem valores ao qual x <strong>NÃO</strong> pode se igualar.</p>
-                    <p>No exemplo da imagem, a função y=1/x tem um limite onde x não pode ser igual a 0 e, consequentemente, nem y pode ser igual a 0.</p>
-                    <p>Chamamos esses valores de <strong>assíntonas</strong>.</p>
-                    <a href="RationalFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                    <p>Funções irracionais tammbém possuem um domínio. Então também existem valores que x não pode ser aqui.</p>
+                    <p>Elas são dadas por f(x)=&#8730;x</p>
+                    <p>No exemplo, se x for menor que 0, a função não funciona pois &#8730;-n, onde n é positivo ou igual a 0, resulta em um número imaginário, ou seja, não é real.</p>
+                    <a href="RootFunctions.html" class="Link">Saiba mais sobre aqui</a>
                 </div>
             </div>
             <br><br>
+
+            <!--Exponential Functions Section-->
+            <div id="ExponentialFunctions">
+                <h2>Funções Exponenciais</h2>
+                <img class="FunctionImages" src="ExponentialFunction.png" alt="ExponentialFunction">
+                <div class="FunctionText">
+                    <p>Neste caso, temos uma imagem, onde y não pode ser 0 se a não for 0, pois qualquer número diferente de 0 elevado a qualquer número <strong>NUNCA</strong> é 0</p>
+                    <p>Funções exponenciais são dadas por f(x)=a<sup>x</sup>.</p>
+                    <p>No exemplo, 2<sup>x</sup> decresce quando x é menor que 1 mas nunca chega a 0, como dito anteriormente. Mas quando x é maior que 0, ele cresce <strong>Exponencialmente!</strong></p>
+                    <a href="ExponentialFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
+            </div>
+            <br><br>
+
+
+
 
         </main>
     </div>
@@ -88,24 +104,3 @@
     
 </body>
 </html>
-
-<!--
-Linear Functions
-
-Quadratic Functions
-Intersection Points
-Vertex
-Discplacement
-Domain and Image
-Finding the Formula of a Function Given points
-Max and Minimal Values When Given a Domain and Function
-Quadratic Inequations
-
-Polinomial Functions (Solving, Displacement and Inequalities)
-
-Rational Functions (Solving, Displacement, Domains and Inequalities)
-
-Root Functions (Solving, Displacement and Inequalities)
-
-Exponential Functions (Solving, Displacement and Inequalities)
--->
