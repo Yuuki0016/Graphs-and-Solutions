@@ -1,0 +1,44 @@
+/*Background Color*/
+body {
+    background-color: rgb(51, 134, 207);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*White Box in the center of the screen for better visibility*/
+#MainSpace {
+    background-color: #fff;
+    align-self: center;
+    width: 75%;
+    height: 1000px; /*Verify height afterwards, change to 100% if better*/
+    margin-left: 12.5%;
+    margin-top: 0%;
+    padding: 5px;
+
+}
+
+/*Page Title*/
+.PageTitle {
+    text-align: center;
+    font-size: 200%; 
+    
+
+}
+
+/*Linear Functions*/
+#LinearFunctions {
+    text-align: center;
+    font-size: 125%;
+}
+
+.xFunction {
+    width: 50%;
+    height: 50%;
+}
+
+.LinearParagraph {
+    text-align: left;
+    margin-left: 100px;
+    padding: 0px;
+    word-spacing: 5px;
+
+}
