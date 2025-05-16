@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gráficos e Funções de Graus Superiores</title>
+</head>
+<body>
+    <div id="MainSpace">
+        <main>
+            <!--Título-->
+            <h1 class="PageTitle">Este site busca informar diferentes maneiras de esboçar e resolver gráficos. </h1>
+            <br><br>
+            <div id="LinearFunctions">
+                <h2>Funções Lineares</h2>
+                <img class="xFunction" src="linear function.png" alt="LinearFunction" >
+                <p class="LinearParagraph">Funções lineares são as mais básicas das funções, caracterizadas por uma única linha reta como na imagem</p>
+                <p class="LinearParagraph">Uma linha... Por isso ela é "linear"!</p>
+                <p class="LinearParagraph">Sua fórmula base se da por f(x)=ax+b</p>
+            </div>
+
+
+        </main>
+    </div>
+
+    
+    
+</body>
+</html>
