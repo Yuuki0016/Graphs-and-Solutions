@@ -81,22 +81,15 @@ body {
     font-size: 125%;
 }
 
-/*
-Linear Functions
+/*Root Functions*/
+#RootFunctions {
+    text-align: center;
+    font-size: 125%;
+}
 
-Quadratic Functions
-Intersection Points
-Vertex
-Discplacement
-Domain and Image
-Finding the Formula of a Function Given points
-Max and Minimal Values When Given a Domain and Function
-Quadratic Inequations
+/*Exponential Functions*/
+#ExponentialFunctions {
+    text-align: center;
+    font-size: 125%;
+}
 
-Polinomial Functions (Solving, Displacement and Inequalities)
-
-Rational Functions (Solving, Displacement, Domains and Inequalities)
-
-Root Functions (Solving, Displacement and Inequalities)
-
-Exponential Functions (Solving, Displacement and Inequalities)*/
