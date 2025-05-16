@@ -9,7 +9,7 @@ body {
     background-color: #fff;
     align-self: center;
     width: 75%;
-    height: 1000px; /*Verify height afterwards, change to 100% if better*/
+    height: 10000px; /*Verify height afterwards, change to 100% if better*/
     margin-left: 12.5%;
     margin-top: 0%;
     padding: 5px;
@@ -19,9 +19,42 @@ body {
 /*Page Title*/
 .PageTitle {
     text-align: center;
-    font-size: 200%; 
-    
+    font-size: 250%;
+    background-color: rgb(227, 241, 245); 
+    margin-top: 0;
+    padding: 10px;    
 
+}
+
+/*Description of the page*/
+.Description {
+    text-align: center;
+    font-size: large;
+}
+
+/*Title of each function*/
+
+/*Links*/
+.Link {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+/*Text for each section*/
+.FunctionText {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 0px;
+    word-spacing: 0px;
+    line-height: 10px;
+}
+
+/*Images*/
+.FunctionImages {
+    width: 35%;
+    height: 35%;
 }
 
 /*Linear Functions*/
@@ -30,15 +63,40 @@ body {
     font-size: 125%;
 }
 
-.xFunction {
-    width: 50%;
-    height: 50%;
+/*Quadratic Functions*/
+#QuadraticFunctions {
+    text-align: center;
+    font-size: 125%;
 }
 
-.LinearParagraph {
-    text-align: left;
-    margin-left: 100px;
-    padding: 0px;
-    word-spacing: 5px;
-
+/*Polynomial Functions*/
+#PolynomialFunctions {
+    text-align: center;
+    font-size: 125%;
 }
+
+/*Rational Functions*/
+#RationalFunctions {
+    text-align: center;
+    font-size: 125%;
+}
+
+/*
+Linear Functions
+
+Quadratic Functions
+Intersection Points
+Vertex
+Discplacement
+Domain and Image
+Finding the Formula of a Function Given points
+Max and Minimal Values When Given a Domain and Function
+Quadratic Inequations
+
+Polinomial Functions (Solving, Displacement and Inequalities)
+
+Rational Functions (Solving, Displacement, Domains and Inequalities)
+
+Root Functions (Solving, Displacement and Inequalities)
+
+Exponential Functions (Solving, Displacement and Inequalities)*/
