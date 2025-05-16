@@ -3,23 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <title>Gráficos e Funções de Graus Superiores</title>
 </head>
 <body>
     <div id="MainSpace">
         <main>
-            <!--Título-->
-            <h1 class="PageTitle">Este site busca informar diferentes maneiras de esboçar e resolver gráficos. </h1>
+            <!--Title-->
+            <h1 class="PageTitle">Introdução a Funções e Gráficos</h1>
+            <p class="Description">Este site busca informar diferentes maneiras de esboçar e resolver gráficos.</p>
             <br><br>
+
+            <!--Linear Function Section-->
             <div id="LinearFunctions">
                 <h2>Funções Lineares</h2>
-                <img class="xFunction" src="linear function.png" alt="LinearFunction" >
-                <p class="LinearParagraph">Funções lineares são as mais básicas das funções, caracterizadas por uma única linha reta como na imagem</p>
-                <p class="LinearParagraph">Uma linha... Por isso ela é "linear"!</p>
-                <p class="LinearParagraph">Sua fórmula base se da por f(x)=ax+b</p>
+                <img class="FunctionImages" src="LinearFunction.png" alt="xFunction" >
+                <!--Text-->
+                <div class="FunctionText">
+                    <p>Funções lineares são as mais básicas das funções, caracterizadas por uma única linha reta como na imagem.</p>
+                    <p>Uma linha... Por isso ela é "linear"!</p>
+                    <p>Sua fórmula base se dá por f(x)=ax+b, onde a≠0.</p>
+                    <a href="LinearFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
             </div>
+            <br><br>
 
+            <!--Quadratic Functions Section-->
+            <div id="QuadraticFunctions">
+                <h2>Funções Quadráticas</h2>
+                <img class="FunctionImages" src="QuadraticFunction.png" alt="x²Function">
+                <div class="FunctionText">
+                    <p>Funções quadráticas são um pouco mais complexas, caracterizadas por uma parábola, elas fazem uma curva pelo plano.</p>
+                    <p>Sua fórmula se dá por f(x)=ax<sup>2</sup>+bx+c, onde a≠0.</p>
+                    <p>Para resolver essa função, utilizamos mais comumente a fórmula de bhaskara.</p>
+                    <a href="QuadraticFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
+            </div>
+            <br><br>
+
+            <!--Polynomial Functions Section-->
+            <div id="PolynomialFunctions">
+                <h2>Funções de Polinomiais</h2>
+                <!--x(x+2)(x-2)=x³-4x-->
+                <img class="FunctionImages" src="3rdDegreeFunction.png" alt="3rdDegreeFunction">
+                <div class="FunctionText">
+                    <p>Funções polinomiais seguem um padrão, onde seu grau é definido pelo maior expoente de uma variável.</p>
+                    <p>Por exemplo: y=x<sup>3</sup>+2x<sup>2</sup>+x+5 é uma função de 3°grau.</p>
+                    <p>Já y=3x<sup>5</sup>+4x<sup>4</sup>-2x<sup>2</sup>+3 é uma função de 5°grau.</p>
+                    <a href="PolynomialFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
+            </div>
+            <br><br>
+
+            <!--Rational Functions Section-->
+            <div id="RationalFunctions">
+                <h2>Funções Racionais</h2>
+                <img class="FunctionImages" src="RationalFunction.png" alt="RationalFunction">
+                <div class="FunctionText">
+                    <p>Funções racionais são caracterizadas pela forma f(x)=<sup>P(x)</sup>&frasl;<sub>Q(x)</sub>. Portanto, existem valores ao qual x <strong>NÃO</strong> pode se igualar.</p>
+                    <p>No exemplo da imagem, a função y=1/x tem um limite onde x não pode ser igual a 0 e, consequentemente, nem y pode ser igual a 0.</p>
+                    <p>Chamamos esses valores de <strong>assíntonas</strong>.</p>
+                    <a href="RationalFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
+            </div>
+            <br><br>
+
+            <!--Root Functions Section-->
+            <div id="RootFunctions">
+                <h2>Funções Racionais</h2>
+                <img class="FunctionImages" src="RationalFunction.png" alt="RationalFunction">
+                <div class="FunctionText">
+                    <p>Funções racionais são caracterizadas pela forma f(x)=<sup>P(x)</sup>&frasl;<sub>Q(x)</sub>. Portanto, existem valores ao qual x <strong>NÃO</strong> pode se igualar.</p>
+                    <p>No exemplo da imagem, a função y=1/x tem um limite onde x não pode ser igual a 0 e, consequentemente, nem y pode ser igual a 0.</p>
+                    <p>Chamamos esses valores de <strong>assíntonas</strong>.</p>
+                    <a href="RationalFunctions.html" class="Link">Saiba mais sobre aqui</a>
+                </div>
+            </div>
+            <br><br>
 
         </main>
     </div>
@@ -28,3 +88,24 @@
     
 </body>
 </html>
+
+<!--
+Linear Functions
+
+Quadratic Functions
+Intersection Points
+Vertex
+Discplacement
+Domain and Image
+Finding the Formula of a Function Given points
+Max and Minimal Values When Given a Domain and Function
+Quadratic Inequations
+
+Polinomial Functions (Solving, Displacement and Inequalities)
+
+Rational Functions (Solving, Displacement, Domains and Inequalities)
+
+Root Functions (Solving, Displacement and Inequalities)
+
+Exponential Functions (Solving, Displacement and Inequalities)
+-->
