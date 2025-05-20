@@ -7,100 +7,115 @@
     <title>Gráficos e Funções de Graus Superiores</title>
 </head>
 <body>
-    <div id="MainSpace">
-        <main>
-            <!--Title-->
+
+    <main id="MainSpace">
+
+        <!--Title-->
+        <header>
             <h1 class="PageTitle">Introdução a Funções e Gráficos</h1>
             <p class="Description">Este site busca informar diferentes maneiras de esboçar e resolver gráficos.</p>
-            <br><br>
+        </header>
+        <br><br>
 
-            <!--Linear Function Section-->
-            <div id="LinearFunctions">
-                <h2>Funções Lineares</h2>
-                <img class="FunctionImages" src="LinearFunction.png" alt="xFunction" >
-                <!--Text-->
-                <div class="FunctionText">
-                    <p>Funções lineares são as mais básicas das funções, caracterizadas por uma única linha reta como na imagem.</p>
-                    <p>Uma linha... Por isso ela é "linear"!</p>
-                    <p>Sua fórmula base se dá por f(x)=ax+b, onde a≠0.</p>
-                    <a href="LinearFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Navigation-->
+        <nav id="Navigation">
+            <h2>Navegação</h2>
+            <ul class="NavigationList">
+                <li><a href="#LinearFunctions">Funções Lineares</a></li>
+                <li><a href="#QuadraticFunctions">Funções Quadráticas</a></li>
+                <li><a href="#PolynomialFunctions">Funções Polinomiais</a></li>
+                <li><a href="#RationalFunctions">Funções Racionais</a></li>
+                <li><a href="#RootFunctions">Funções Irracionais</a></li>
+                <li><a href="#ExponentialFunctions">Funções Exponenciais</a></li>
+            </ul>
+        </nav>
+        <br><br>
+
+        <!--Linear Function Section-->
+        <section id="LinearFunctions">
+            <h2>Funções Lineares</h2>
+            <img class="FunctionImages" src="LinearFunction.png" alt="xFunction" >
+            <!--Text-->
+            <div class="FunctionText">
+                <p>Funções lineares são as mais básicas das funções, caracterizadas por uma única linha reta como na imagem.</p>
+                <p>Uma linha... Por isso ela é "linear"!</p>
+                <p>Sua fórmula base se dá por f(x)=ax+b, onde a≠0.</p>
+                <a href="LinearFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
-            <!--Quadratic Functions Section-->
-            <div id="QuadraticFunctions">
-                <h2>Funções Quadráticas</h2>
-                <img class="FunctionImages" src="QuadraticFunction.png" alt="x²Function">
-                <div class="FunctionText">
-                    <p>Funções quadráticas são um pouco mais complexas, caracterizadas por uma parábola, elas fazem uma curva pelo plano.</p>
-                    <p>Sua fórmula se dá por f(x)=ax<sup>2</sup>+bx+c, onde a≠0.</p>
-                    <p>Para resolver essa função, utilizamos mais comumente a fórmula de bhaskara.</p>
-                    <a href="QuadraticFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Quadratic Functions Section-->
+        <section id="QuadraticFunctions">
+            <h2>Funções Quadráticas</h2>
+            <img class="FunctionImages" src="QuadraticFunction.png" alt="x²Function">
+            <div class="FunctionText">
+                <p>Funções quadráticas são um pouco mais complexas, caracterizadas por uma parábola, elas fazem uma curva pelo plano.</p>
+                <p>Sua fórmula se dá por f(x)=ax<sup>2</sup>+bx+c, onde a≠0.</p>
+                <p>Para resolver essa função, utilizamos mais comumente a fórmula de bhaskara.</p>
+                <a href="QuadraticFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
-            <!--Polynomial Functions Section-->
-            <div id="PolynomialFunctions">
-                <h2>Funções de Polinomiais</h2>
-                <!--x(x+2)(x-2)=x³-4x-->
-                <img class="FunctionImages" src="3rdDegreeFunction.png" alt="3rdDegreeFunction">
-                <div class="FunctionText">
-                    <p>O grau de uma função polinomial é definido pelo maior expoente de uma variável.</p>
-                    <p>Por exemplo: y=x<sup>3</sup>+2x<sup>2</sup>+x+5 é uma função de 3°grau.</p>
-                    <p>Já y=3x<sup>5</sup>+4x<sup>4</sup>-2x<sup>2</sup>+3 é uma função de 5°grau.</p>
-                    <a href="PolynomialFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Polynomial Functions Section-->
+        <section id="PolynomialFunctions">
+            <h2>Funções de Polinomiais</h2>
+            <!--x(x+2)(x-2)=x³-4x-->
+            <img class="FunctionImages" src="3rdDegreeFunction.png" alt="3rdDegreeFunction">
+            <div class="FunctionText">
+                <p>O grau de uma função polinomial é definido pelo maior expoente de uma variável.</p>
+                <p>Por exemplo: y=x<sup>3</sup>+2x<sup>2</sup>+x+5 é uma função de 3°grau.</p>
+                <p>Já y=3x<sup>5</sup>+4x<sup>4</sup>-2x<sup>2</sup>+3 é uma função de 5°grau.</p>
+                <a href="PolynomialFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
-            <!--Rational Functions Section-->
-            <div id="RationalFunctions">
-                <h2>Funções Racionais</h2>
-                <img class="FunctionImages" src="RationalFunction.png" alt="RationalFunction">
-                <div class="FunctionText">
-                    <p>Funções racionais são caracterizadas pela forma f(x)=<sup>P(x)</sup>&frasl;<sub>Q(x)</sub>. Portanto, existem valores ao qual x <strong>NÃO</strong> pode se igualar.</p>
-                    <p>No exemplo da imagem, a função y=1/x tem um limite onde x não pode ser igual a 0 e, consequentemente, nem y pode ser igual a 0.</p>
-                    <p>Chamamos esses valores de <strong>assíntonas</strong>.</p>
-                    <a href="RationalFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Rational Functions Section-->
+        <section id="RationalFunctions">
+            <h2>Funções Racionais</h2>
+            <img class="FunctionImages" src="RationalFunction.png" alt="RationalFunction">
+            <div class="FunctionText">
+                <p>Funções racionais são caracterizadas pela forma f(x)=<sup>P(x)</sup>&frasl;<sub>Q(x)</sub>. Portanto, existem valores ao qual x <strong>NÃO</strong> pode se igualar.</p>
+                <p>No exemplo da imagem, a função y=1/x tem um limite onde x não pode ser igual a 0 e, consequentemente, nem y pode ser igual a 0.</p>
+                <p>Chamamos esses valores de <strong>assíntonas</strong>.</p>
+                <a href="RationalFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
-            <!--Square Root Functions Section-->
-            <div id="RootFunctions">
-                <h2>Funções Irracionais</h2>
-                <img class="FunctionImages" src="RootFunction.png" alt="RootFunction">
-                <div class="FunctionText">
-                    <p>Funções irracionais tammbém possuem um domínio. Então também existem valores que x não pode ser aqui.</p>
-                    <p>Elas são dadas por f(x)=&#8730;x</p>
-                    <p>No exemplo, se x for menor que 0, a função não funciona pois &#8730;-n, onde n é positivo ou igual a 0, resulta em um número imaginário, ou seja, não é real.</p>
-                    <a href="RootFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Square Root Functions Section-->
+        <section id="RootFunctions">
+            <h2>Funções Irracionais</h2>
+            <img class="FunctionImages" src="RootFunction.png" alt="RootFunction">
+            <div class="FunctionText">
+                <p>Funções irracionais tammbém possuem um domínio. Então também existem valores que x não pode ser aqui.</p>
+                <p>Elas são dadas por f(x)=&#8730;x</p>
+                <p>No exemplo, se x for menor que 0, a função não funciona pois &#8730;-n, onde n é positivo ou igual a 0, resulta em um número imaginário, ou seja, não é real.</p>
+                <a href="RootFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
-            <!--Exponential Functions Section-->
-            <div id="ExponentialFunctions">
-                <h2>Funções Exponenciais</h2>
-                <img class="FunctionImages" src="ExponentialFunction.png" alt="ExponentialFunction">
-                <div class="FunctionText">
-                    <p>Neste caso, temos uma imagem, onde y não pode ser 0 se a não for 0, pois qualquer número diferente de 0 elevado a qualquer número <strong>NUNCA</strong> é 0</p>
-                    <p>Funções exponenciais são dadas por f(x)=a<sup>x</sup>.</p>
-                    <p>No exemplo, 2<sup>x</sup> decresce quando x é menor que 1 mas nunca chega a 0, como dito anteriormente. Mas quando x é maior que 0, ele cresce <strong>Exponencialmente!</strong></p>
-                    <a href="ExponentialFunctions.html" class="Link">Saiba mais sobre aqui</a>
-                </div>
+        <!--Exponential Functions Section-->
+        <section id="ExponentialFunctions">
+            <h2>Funções Exponenciais</h2>
+            <img class="FunctionImages" src="ExponentialFunction.png" alt="ExponentialFunction">
+            <div class="FunctionText">
+                <p>Neste caso, temos uma imagem, onde y não pode ser 0 se a não for 0, pois qualquer número diferente de 0 elevado a qualquer número <strong>NUNCA</strong> é 0</p>
+                <p>Funções exponenciais são dadas por f(x)=a<sup>x</sup>.</p>
+                <p>No exemplo, 2<sup>x</sup> decresce quando x é menor que 1 mas nunca chega a 0, como dito anteriormente. Mas quando x é maior que 0, ele cresce <strong>Exponencialmente!</strong></p>
+                <a href="ExponentialFunctions.html" class="Link">Saiba mais sobre aqui</a>
             </div>
-            <br><br>
+        </section>
+        <br><br>
 
+            <!--Footer-->
+        <footer>
+           <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
+        </footer>
+    </main>
 
-
-
-        </main>
-    </div>
-
-    
-    
 </body>
 </html>
