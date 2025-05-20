@@ -9,7 +9,7 @@ body {
     background-color: #fff;
     align-self: center;
     width: 75%;
-    height: 10000px; /*Verify height afterwards, change to 100% if better*/
+    height: 5000px; /*Verify height afterwards, change to 100% if better*/
     margin-left: 12.5%;
     margin-top: 0%;
     padding: 5px;
@@ -26,13 +26,23 @@ body {
 
 }
 
+/*Navigation*/
+#Navigation {
+    font-size: 125%;
+    margin-left: 12.5%;
+}
+
+.NavigationList {
+    list-style: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+
 /*Description of the page*/
 .Description {
     text-align: center;
     font-size: large;
 }
-
-/*Title of each function*/
 
 /*Links*/
 .Link {
@@ -48,7 +58,6 @@ body {
     margin-top: 25px;
     padding: 0px;
     word-spacing: 0px;
-    line-height: 10px;
 }
 
 /*Images*/
@@ -93,3 +102,7 @@ body {
     font-size: 125%;
 }
 
+footer {
+    position: relative;
+    top: 178px;
+}
