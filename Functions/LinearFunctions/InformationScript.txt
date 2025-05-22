@@ -11,4 +11,4 @@ domínio e imagem
 
 
 
-Base formula: 
+Funções Lineares são funções cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1
