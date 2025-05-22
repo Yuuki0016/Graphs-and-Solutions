@@ -1,5 +1,5 @@
 note: add the following
-
+https://en.wikipedia.org/wiki/Linear_function
 base formula
 coeficiente angular e linear
 desenho/sketch
