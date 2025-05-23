@@ -11,4 +11,5 @@ domínio e imagem
 
 
 
-Funções Lineares são funções cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1
+Funções Lineares são funções cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1.
+Também conhecida como funções afim, tem a forma f(x)=ax+b, onde a e b são constantes 
