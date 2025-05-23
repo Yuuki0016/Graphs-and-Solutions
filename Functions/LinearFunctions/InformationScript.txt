@@ -10,6 +10,98 @@ intersecção
 domínio e imagem
 
 
+Contextualização:
 
-Funções Lineares são funções cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1.
-Também conhecida como funções afim, tem a forma f(x)=ax+b, onde a e b são constantes 
+Funções Lineares são funções cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1. /*title*/
+<img>
+Também conhecida como funções afim, tem a forma f(x)=ax+b, onde a e b são constantes.
+O gráfico de tal função é uma linha reta, onde a é o coeficinete angular e b é o coeficiente linear.
+Se a>0, a função é crescente;
+<small img>
+Se a<0, a função é decrescente.
+<small img>
+Nesse contexto, uma função constante também é linear, sendo um polinômio de grau 0 e, gráficamente, uma linha horizontal.
+<small img>
+
+/*content*/
+
+Sabendo o conceito, vamos nos aprofundar nas calculações.
+
+
+
+<Determinação dos coeficientes angular e linear:
+
+Para encontrar o coeficiente angular, usamos uma razão ente um ponto e outro:
+<img>
+a fórmula se dá por: a=y<sub>2-y<sub>1/x<sub>2-x<sub1>
+<img with slope ex f(x)=3x+4>
+exemplo: dado o gráfico na imagem, podemos perceber os pontos (-1,1), (0,4), (1,7) e (2,10).
+Usando a fórmula, podemos encontrar o coeficiente angular. 
+Utilizando dos pontos (0,4) e (1,7), encontramos o seguinte:
+a=(7-4)/(1-0)=3/1=3
+Portanto, o coeficiente angular a é igual a 3.
+Nos reta agora encontrar o coeficiente linear.
+Sabemos que f(x)=3x+b. Portanto, substituímos um ponto nessa fórmula.
+Utilizemos o ponto (2,10) e substituímos na fórmula:
+10=3*2+b	&rarr;10=6+b	&rarr;10-6=b	&rarr;4=b
+Portanto, a fórmula final é: f(x)=3x+4.
+
+<Esboço
+
+Para esboçar uma função linear, podemos simplismente aplicar um valor qualquer de x e descobrir o seu y. 
+Ao executar 2 vezes, conectamos os pontos com uma reta e voilà, nossa função está no gráfico.
+ex: f(x)=2x+3
+vamos substituir x com 0 e 2:
+f(0)=2*0+3  &rarr;f(0)=3
+f(2)=2*2+3 	&rarr;f(2)=4+3	&rarr;f(2)=7
+<img conectando os 2>
+
+
+<Resolução de uma finção linear
+
+Para resolver uma função linear, é só igualar f(x) a um valor, geralmente dado pela questão.
+Digamos que a função f(x)=3x-2=7
+Para resolver, começamos igualando 3x-2 a 7:
+3x-2=7
+passamos o 2 para o outro lado positivo
+3x=9
+passamos o 3 para o outro lado dividindo
+x=9/3
+x=3
+Poratnto, f(x)=7 quando x é igual a 3.
+<img of graph with point>
+
+
+<intersecção>
+Para encontrarmos a intersecção de 2 funções, apenas as igualamos.
+Digamos que f(x)=3x+4 e g(x)=-4x+11
+Vamos começar igualando-as:
+f(x)=g(x) 	&rarr; 3x+4=-4x+11
+Vamos por os x em um lado e as constantes em outro.
+3x+4x=11-4
+7x=7
+passamos o 7 para o outro aldo dividindo
+x=7/7
+x=1
+Agora sabemos que f(x) e g(x) se encontram em x=1
+Então só substituimos x em uma das funções.
+f(1)=3*1+4	&rarr;f(x)=3+4	&rarr;f(x)=7
+Portanto, f(x) e g(x) se encontram no ponto (1,7).
+<graphm img>
+Note que, se as retas forem paraleleas, não existe uma intersecção:
+f(x)=x, g(x)=x+1
+<img>
+
+
+<Dmonio
+Um domínio se dá quando há um limite até onde a reta se estende.
+Por exemplo:
+f(x)=2x+3 (0&#8805;x&#8805;3)
+Aqui, f(x) tem um domínio onde x não pode ser maior que 3 e nem menor que o, formando o seguite gráfico:
+<img>
+Ao resolver f(x) o igualando aos limites do domínio, temos a imagem:
+f(0)=2*0+3	&rarr;f(x)=3
+f(3)=2*3+3	&rarr;f(x)=6+3	&rarr;f(x)=9
+Portanto, f(x) no domínio onde (0<x<3) tem a imagem (3<f(x)<9
+
+add footer
