@@ -9,7 +9,7 @@ body {
     background-color: #fff;
     align-self: center;
     width: 75%;
-    height: 5000px; /*Verify height afterwards, change to 100% if better*/
+    height: 100%; /*Verify height afterwards, change to 100% if better*/
     margin-left: 12.5%;
     margin-top: 0%;
     padding: 5px;
@@ -104,5 +104,5 @@ body {
 
 footer {
     position: relative;
-    top: 178px;
+    bottom: 0;
 }
