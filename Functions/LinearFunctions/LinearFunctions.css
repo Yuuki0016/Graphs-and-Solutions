@@ -40,11 +40,12 @@ ul {
     line-height: 25px;
 }
 
+/*Conteúdo*/
 .content {
     font-weight: normal;
     background-color: rgb(204, 166, 250);
 }
 
-.Coefficients {
-
+.SubTitle {
+    background-color: lightcyan;
 }
