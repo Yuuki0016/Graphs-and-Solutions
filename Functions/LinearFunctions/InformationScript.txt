@@ -105,3 +105,7 @@ f(3)=2*3+3	&rarr;f(x)=6+3	&rarr;f(x)=9
 Portanto, f(x) no domínio onde (0<x<3) tem a imagem (3<f(x)<9
 
 add footer
+
+
+usefull shit:
+<span style="color: #ff0000">&rarr;</span>
