@@ -46,6 +46,15 @@ ul {
     background-color: rgb(204, 166, 250);
 }
 
+/*Subtítulo*/
 .SubTitle {
     background-color: lightcyan;
+}
+
+/*footer*/
+footer {
+    font-size: smaller;
+    position: relative;
+    bottom: 0;
+    text-align: left;
 }
