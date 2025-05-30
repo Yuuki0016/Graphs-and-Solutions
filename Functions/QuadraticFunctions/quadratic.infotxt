@@ -1,3 +1,4 @@
+Usefull shit:
 https://en.wikipedia.org/wiki/Quadratic_function
 base formula
 coeficiente angular e linear
@@ -7,6 +8,7 @@ formula dados 2 pontos
 deslocamento
 intersecção
 domínio e imagem
+<span style="color: #ff0000">&rarr;</span>
 
 /*Concept*/
 Uma função qudrática é aquela que tem uma única variável com a forma:
@@ -27,7 +29,43 @@ Para resolver uma função quadrática, a igualamos a 0.
 Exemplo: f(x)=3x²+4x+1
 Começemos igualando a função a 0:
 3x²+4x+1=0
-<img 3x²+4x+1Function>
+Agora temos várias formas de resolver esssa equação.
+
+Bháskara.
+Usar a fórmula de bhaskara é a forma mais comum.
+a fórmula se dá por x=<math>
+      <mrow>
+            <mn>x</mn>
+            <mo>=</mo>
+            <mrow>
+                  <mfrac>
+                        <mrow>
+                              <mo>-</mo>
+                              <mi>b</mi>
+                              <mo>±</mo>
+                              <msqrt>
+                                    <mrow>
+                                         <msup>
+                                              <mi>b</mi><mn>2</mn>
+                                         </msup>
+                                         <mo>-</mo>
+                                         <mn>4</mn>
+                                         <mo>.</mo>
+                                         <mi>a</mi>
+                                         <mo>.</mo>
+                                         <mi>c</mi>
+                                    </mrow>
+                              </msqrt>
+                        </mrow>
+                        <mrow>
+                              <mn>2</mn>
+                              <mo>.</mo>
+                              <mi>a</mi>
+                        </mrow>
+                  </mfrac>
+            </mrow>
+      </mrow>
+</math>
 
 
 
