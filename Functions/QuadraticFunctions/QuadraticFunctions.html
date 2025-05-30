@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QuadraticFunctions.css">
+    <title>Funções Quadráticas</title>
 
+</head>
+<body>
+    <main id="MainSpace">
+
+        <!--Title-->
+        <header><h1>Funções Lineares</h1></header>
+
+        <!--Navigation-->
+        <nav>
+            <h2 class="Title">Navegação</h2>
+            <ul>
+                <li><a href="#Concept">Conceitualização</a></li>
+                <li><a href="#Solving">Resolvendo</a></li>
+            </ul>
+        </nav>
+
+        <!--Concept-->
+        <article id="Concept">
+            <h2 class="Title">Conceitualização</h2>
+            <p>Uma função qudrática é aquela que tem uma única variável com a forma:</p>
+            <p>f(x)=ax<sup>2</sup>+bx+c, a &NotEqual; 0;</p>
+            <p>Onde x é sua variável e <strong>a</strong>, <strong>b</strong> e <strong>c</strong> são seus coeficientes.</p>
+            <p>O gráfico dessa função é uma parábola.</p>
+            <img src="x²Function.png" alt="x²Function">
+            <p>Se a função for igualada a 0, então obtemos uma <strong>equação quadrática</strong>.</p>
+            <p>Suas soluções são as <strong>raízes</strong> (ou zeros).</p>
+            <p>Uma equação quadrática pode ter duas, uma ou nenhuma solução.</p>
+            <br>
+            <p>Obs: Se a &gt; 0, a parábola abre para cima</p>
+            <img src="ax²Function.png" alt="ax²Function">
+            <br><br>
+            <p>Obs<sub>2</sub>: Se a &lt; 0, a parábola abre para baixo</p>
+            <img src="-ax²Function.png" alt="-ax²Function">
+        </article>
+        <br><br>
+
+        <!--Solving-->
+        <article id="Solving">
+            <h2 class="Title">Resolvendo uma Equação Quadrática</h2>
+            <p>Para resolver uma função quadrática, a igualamos a 0.</p>
+            <p>Exemplo: f(x)=3x<sup>2</sup>+4x+1</p>
+            <p>Começemos igualando a função a 0:</p>
+            <p>3x<sup>2</sup>+4x+1=0</p>
+            <p>Agora temos várias formas de resolver esssa equação:</p>
+        </article>
+
+        <article id="Bhaskara">
+            <h2 class="Subtitle">Bhaskara</h2>
+            <p>Usar a fórmula de bhaskara é a forma mais comum.</p>
+            <p>Ela se dá por:</p>
+            <math>
+                <mrow>
+                      <mn>x</mn>
+                      <mo>=</mo>
+                      <mrow>
+                            <mfrac>
+                                  <mrow>
+                                        <mo>-</mo>
+                                        <mi>b</mi>
+                                        <mo>±</mo>
+                                        <msqrt>
+                                              <mrow>
+                                                   <msup>
+                                                        <mi>b</mi><mn>2</mn>
+                                                   </msup>
+                                                   <mo>-</mo>
+                                                   <mn>4</mn>
+                                                   <mo>.</mo>
+                                                   <mi>a</mi>
+                                                   <mo>.</mo>
+                                                   <mi>c</mi>
+                                              </mrow>
+                                        </msqrt>
+                                  </mrow>
+                                  <mrow>
+                                        <mn>2</mn>
+                                        <mo>.</mo>
+                                        <mi>a</mi>
+                                  </mrow>
+                            </mfrac>
+                      </mrow>
+                </mrow>
+          </math>
+        </article>
+
+    </main>
+</body>
+</html>
