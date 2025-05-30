@@ -1,5 +1,38 @@
 https://en.wikipedia.org/wiki/Quadratic_function
+base formula
+coeficiente angular e linear
+desenho/sketch
+resolução
+formula dados 2 pontos
+deslocamento
+intersecção
+domínio e imagem
 
-
+/*Concept*/
 Uma função qudrática é aquela que tem uma única variável com a forma:
-f(x)=ax²+bx+c, onde a=!0
+f(x)=ax²+bx+c, a=!0.
+Onde x é sua variável e a, b e c são seus coeficientes.
+O gráfico dessa função é uma parábola.
+<img x²Function>
+Se a função for igualada a 0, então o resultado é uma equação quadrática.
+Suas soluções são as raízes (ou zeros).
+Uma equação quadrática pode ter duas, uma ou nenhuma solução.
+Obs: Se a>0, a parábola abre para cima:
+<img ax²Function>
+Obs2: Se a<0, a parábola abre para baixo:
+<img -axFunction>
+
+/*solving*/
+Para resolver uma função quadrática, a igualamos a 0.
+Exemplo: f(x)=3x²+4x+1
+Começemos igualando a função a 0:
+3x²+4x+1=0
+<img 3x²+4x+1Function>
+
+
+
+
+
+
+
+
