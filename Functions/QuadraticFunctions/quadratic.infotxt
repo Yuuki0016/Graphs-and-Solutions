@@ -1,9 +1,10 @@
 Usefull shit:
 https://en.wikipedia.org/wiki/Quadratic_function
-base formula
+
 coeficiente angular e linear
 desenho/sketch
-resolução
+
+
 formula dados 2 pontos
 deslocamento
 intersecção
@@ -29,17 +30,38 @@ Para resolver uma função quadrática, a igualamos a 0.
 Exemplo: f(x)=3x²+4x+1
 Começemos igualando a função a 0:
 3x²+4x+1=0
-Agora temos várias formas de resolver esssa equação.
+Para encontrar as raízes ou zeros dessa equação usamos bháskara
 
-Bháskara.
-Usar a fórmula de bhaskara é a forma mais comum.
 a fórmula se dá por:
 x=(-b+-sqrtb²-4ac)/2a
 Onde a, b e c são os coeficientes.
+-----------------------------------------------------------------------------------
+
+/*determinante*/
+O determinante (ou delta) é a parte que fica dentro da raiz em bháskara.
+*delta*=b²-4ac
+Sua função é determinar o número e natureza das raízes.
+Há 3 possiblidades:
+Δ>0:
+<img>
+A equação possui 2 raízes reais e distintas
+
+Δ=0
+<img>
+A equaç~~ao possui 2 raízes reais e iguais, ou 1 raíz.
+
+Δ<0
+A equação possui 2 raízes complexas.
+Nesse caso em especial, a equação não possui nenhum 0.
+Portanto, suas soluções envolvem números imaginários.
+Sendo este o i, ou sqrt-1.
+Lembre-se que não exite raiz quadrada de números negativos.
+É por isso que usamos o número imaginario i.
 
 
-
-
-
+Inteersecção
+a interseção se dá pela igualação das funções
+ou seja, os pontos em comum de f(x) e g(x) são encontrados por f(x)=g(x)
+Ex: Seja f(x)=3x²+2x+1
 
 
