@@ -1,14 +1,7 @@
 Usefull shit:
 https://en.wikipedia.org/wiki/Quadratic_function
 
-coeficiente angular e linear
-desenho/sketch
-
-
-formula dados 2 pontos
-deslocamento
-intersecção
-domínio e imagem
+Inequations
 <span style="color: #ff0000">&rarr;</span>
 
 /*Concept*/
@@ -62,6 +55,70 @@ Lembre-se que não exite raiz quadrada de números negativos.
 Inteersecção
 a interseção se dá pela igualação das funções
 ou seja, os pontos em comum de f(x) e g(x) são encontrados por f(x)=g(x)
-Ex: Seja f(x)=3x²+2x+1
+Ex: Seja f(x)=x²+x+1 e g(x)=-x²+2x+4
+x²+x+1=-x²+2x+4 -> 2x²-x-3=0
+Agora resolvemos a equação usando bháskara
+///
+///
+///
+Obtemos o resultado: x= -1, 3/2.
+Agora subtituímos os resultados em uma da equações para encontrar o y
+///
+///
+///
+Portanto, os pontos de itnerseção são: (-1,1) e (3/2,19/4)
 
 
+/*Vértice*/
+Para encontrarmos o vértice de uma função quadrática, usamos a seguitne fórmula:
+f(x)=a(x-(-b/2a))²+(c-b²/4a)
+onde -b/2a é o x e c-b²/4a é o y.
+EX:
+
+
+/*Fórmula dadas informaçõpes*/
+
+Podemos encontrar as fórmulas de equações quadráticas usando as seguintes fórmulas:
+Quando dado o vértice e 1 ponto
+f(x)=a(x-Vx)+Vy
+Ex:
+
+Quando dado o eixo de simetria e 2 pontos:
+f(x)=a(x-s)+b
+Ex:
+
+Quando dadas as raízes e um ponto
+f(x)=a(x-r1)(x-r2)
+EX
+
+Quando dados 3 pontos
+f(x)=ax²+bx+c
+ex:
+
+
+/*Deslocamento*/
+O Deslocamento de um função se dá quando comparamos o vértice uma função com um ponto ou outra função.
+Ou seja, x2-x1 e y2-y1
+Ex; potno
+ex; função
+atente-se ao valor de a
+
+
+/*Esboço*/
+Para esboçarmos o nosso gráfico, encontramos diversos pontos e os ligamos.
+Pontos:
+f(x)=0
+f(0)=
+Vértice
+Determinante
+
+A saber:
+Seja a<b
+Quando D>0, -b/2a>0, f(0)>0 -> a>0, b>0
+Quando D>0, -b/2a<0, f(0)>0 -> a<0, b>0
+Quando f(0)<0 -> a<0, b<0 
+
+Ex1:
+ex:2
+
+Domínio e Imagem
