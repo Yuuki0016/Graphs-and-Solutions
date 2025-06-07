@@ -29,7 +29,7 @@ Para encontrar as raízes ou zeros dessa equação usamos bháskara
 a fórmula se dá por:
 x=(-b+-sqrtb²-4ac)/2a
 Onde a, b e c são os coeficientes.
------------------------------------------------------------------------------------
+
 
 /*determinante*/
 O determinante (ou delta) é a parte que fica dentro da raiz em bháskara.
@@ -101,6 +101,7 @@ ex:
 O Deslocamento de um função se dá quando comparamos o vértice uma função com um ponto ou outra função.
 Ou seja, x2-x1 e y2-y1
 Ex; potno
+----------------------------------------------------
 ex; função
 atente-se ao valor de a
 
