@@ -14,3 +14,6 @@ Uma função polinomial é aqu
 
 solving:
 Para resolvermos uma função polinomial de grau acima de 2, não existe uma forma muito simples como bháskara para as quadráticas
+
+
+for some reason, the txt out of a p article is still showing, saearch about this afterwards
