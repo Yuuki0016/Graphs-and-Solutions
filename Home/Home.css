@@ -26,14 +26,20 @@ body {
 
 }
 
+/*Text*/
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 /*Navigation*/
 #Navigation {
+    margin-top: 50px;
     font-size: 125%;
-    margin-left: 12.5%;
+    position: absolute;
 }
 
 .NavigationList {
-    list-style: none;
     line-height: 30px;
     cursor: pointer;
 }
@@ -49,6 +55,8 @@ body {
     text-decoration: underline;
     color: blue;
     font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /*Text for each section*/
@@ -102,7 +110,18 @@ body {
     font-size: 125%;
 }
 
+/*footer*/
 footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
+    margin-left: -17%;
+}
+
+/*Back to top button*/
+#BackToTopButton {
+    position: fixed;
+    bottom: 2%;
+    right: 15%;
+    height: 4%;
+    width: 2%;
 }
