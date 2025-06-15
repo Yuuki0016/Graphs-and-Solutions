@@ -1,1 +1,102 @@
 
+/*Background Color*/
+body {
+    background-color: #1453f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*White Box in the center of the screen for better visibility*/
+#MainSpace {
+    background-color: #fff;
+    align-self: center;
+    width: 60%;
+    height: 100%; /*Verify height afterwards, change to 100% if better*/
+    margin-left: 25%;
+    margin-top: 0%;
+    padding: 5px;
+    text-align: center;
+    font-size: 125%;
+}
+
+/*Header*/
+header{
+    text-align: center;
+    font-size: 125%;
+    background-color: rgb(227, 241, 245); 
+    margin-top: 0;
+    padding: 10px;    
+}
+
+/*Navigation*/
+nav {
+    background-color: #fff;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    margin-left: -15%;
+    margin-top: -5px;
+    text-align: left;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.NavC {
+    margin-left: 10%;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 15%;
+    height: 3961px;
+    margin-left: -15%;
+    position: absolute;
+    margin-top: 900px;
+
+}
+
+/*Images*/
+img {
+    width: 35%;
+    height: 35%;
+}
+
+/*Titles*/
+.Title {
+    background-color: lightcyan;
+}
+
+/*Subtitle*/
+.Subtitle {
+    background-color: violet;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Answer*/
+.Answer {
+    color: rgba(207, 10, 40, 0.71);
+}
+
+/*Exemple*/
+.Ex {
+    color: rgb(43, 197, 5);
+}
+
+/*footer*/
+footer {
+    font-size: smaller;
+    position: relative;
+    bottom: -20px;
+    text-align: left;
+    margin-left: -25%;
+}
+
+/*Back to top button*/
+#BackToTopButton {
+    position: fixed;
+    bottom: 2%;
+    right: 15%;
+    height: 4%;
+    width: 2%;
+}
+
