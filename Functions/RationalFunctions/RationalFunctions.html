@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RationalFunctions.css">
+    <title>Funções Racionais</title>
+
+</head>
+<body>
+
+     <!--Title-->
+    <header><h1>Funções Racionais</h1></header>
+
+    <main id="MainSpace">
+
+        <!--Navigation-->
+        <nav>
+            <h2 class="NavC">Neste artigo:</h2>
+            <ul>
+                <li><a href="#Concept">Conceitualização</a></li>
+                <li><a href="#Solving">Resolvendo</a></li>
+                <li><a href="#Assymptones">Assíntonas</a></li>
+                <li><a href="#Intersection">Intersecção</a></li>
+                <li><a href="#Sketch">Esboço</a></li>
+            </ul>
+        </nav>
+
+        <!--box-->
+        <p class="box"></p>
+
+        <!--Concept-->
+        <article id="Concept">
+            <h2 class="Title">Conceitualização</h2>
+            <p>Uma função racional é aquela que tem uma razão.</p>
+            <p>Ou seja, uma divisão entre o numerador e o denominador, onde ambos são <a href="PolynomialFunctions.html">funções polinomiais</a></p>
+            <p>Ela tem a forma f(x) = <sup>P(x)</sup>&frasl;<sub>Q(x)</sub></p>
+            <h3 class="Subtitle">Domínio e Imagem</h3>
+            <p>O domínio dessa função é dado para todos os valores de x que nao deixam o denominador ser igual a 0</p>
+            <p>Já a imagem é dada pelo fato de que apenas a razão <sup>0</sup>&frasl;<sub>n</sub> resulta em 0, ou seja, valores fora da razão.</p>
+            <p><span class="Ex">Exemplo</span>: Seja f(x) = <sup>2</sup>&frasl;<sub>x-1</sub> +2</p>
+            <p>Neste caso, o domínio seria {x &ne; 1} e a imagem seria {y &ne; 2}</p>
+            <img src="FractionaryA.png" alt="[2/(x-1)]+2">
+            <p>Note que a função aparenta tocar o eixo x e y fora do domínio, porém ela não está realmente tocando.</p>
+            <p>Esse é o limite, ou as <a href="#Assymptones">assíntonas</a></p>
+        </article>
+        <br><br>
+
+        <!--Solving-->
+        <article id="Solving">
+            <h2 class="Title">Resolvendo Funções racionais</h2>
+            <p>Para resolvermos funções racionais, efetuamos o mesmo processo de uma equação normal</p>
+            <p>Podemos aplicar o mmc para facilitar a resolução.</p>
+            <p><span class="Ex">Exemplo</span>: Seja f(x) = <sup>x<sup>2</sup>+3</sup>&frasl;<sub>x-1</sub> e f(x) = 7</p>
+            <p><sup>x<sup>2</sup>+3</sup>&frasl;<sub>x-1</sub> = 7 <span style="color: red;">&rarr;</span> x<sup>2</sup>+3 = 7(x-1) <span style="color: red;">&rarr;</span> x<sup>2</sup>+3 = 7x-7 <span style="color: red;">&rarr;</span> x<sup>2</sup>-7x+10 = 0</p>
+            <p>Agora, resolvemos essa <a href="QuadraticFunctions.html">função quadrática</a></p>
+
+            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>(-7)</mi><mo>±</mo><msqrt><mrow><msup><mi>(-7)</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>1</mi><mo>.</mo><mi>10</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>1</mi></mrow></mfrac></mrow></mrow></math>
+            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>7</mi><mo>±</mo><msqrt><mrow><msup><mi>49</mi>></msup><mo>-</mo><mn>40</mn></mrow></msqrt></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>7</mi><mo>±</mo><msqrt><mrow><msup><mi>9</mi>></msup></mrow></msqrt></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>7</mi><mo>±</mo><mrow><msup><mi>3</mi></msup></mrow></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <br><br>
+
+            <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mi>7</mi><mo>+</mo><mrow><msup><mi>3</mi></msup></mrow></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>10</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math class="Answer"><mrow><mo>=</mo><mi>5</mi></mrow></math>
+            <br><br>
+
+            <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mi>7</mi><mo>-</mo><mrow><msup><mi>3</mi></msup></mrow></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn>/mrow></mfrac></mrow></mrow></math>
+            <math class="Answer"><mrow><mo>=</mo><mi>2</mi></mrow></math>
+            <br><br>
+            <img src="FractionaryB.png" alt="(x²+3)/(x-1)">
+        </article>
+        <br><br>
+
+        <!--Assymptones-->
+        <article id="Assymptones">
+            <h2 class="Title">Assíntonas</h2>
+            <p>Assíntonas são basicamente um limite, ao quala função chega infinitamente perto, mas nunca se iguala.</p>
+            <p>Para encontrá-las, precisamos reduzir ao máximo a razão</p>
+            <p>Isto é: resolver a razão</p>
+            <p><span class="Ex">Exemplo</span>: Seja f(x) = <sup>2x+1</sup>&frasl;<sub>x-1</sub></p>
+            <p><sup>2x+1</sup>&frasl;<sub>x-1</sub> = <sup>3</sup>&frasl;<sub>x-1</sub> +2</p>
+            <p>Neste caso, as assintonas seriam: x = 1 e y = 2</p>
+            <img src="FractionaryC.png" alt="FractionaryC">
+        </article>
+        <br><br>
+
+        <!--Intersection-->
+        <article id="Intersection">
+            <h2 class="Title">Intersecção</h2>
+            <p>A intersecção de duas funções se dá por sua igualdade, ou seja, f(x) = g(x)</p>
+            <p><span class="Ex">Exemplo</span>: Seja f(x) = <sup>4</sup>&frasl;<sub>x+2</sub> -1 e g(x) = -<sup>9</sup>&frasl;<sub>x-3</sub> -2</p>
+            <p><sup>4</sup>&frasl;<sub>x+2</sub> -1 = -<sup>9</sup>&frasl;<sub>x-3</sub> -2 <span style="color: red;">&rarr;</span> <sup>4-x+2</sup>&frasl;<sub>x+2</sub> = <sup>-9-2x+6</sup>&frasl;<sub>x-3</sub></p>
+            <p>MMC = (x+2)(x-3)</p>
+            <p>-<sup>x-2</sup>&frasl;<sub>x+2</sub> = -<sup>2x+3</sup> <span style="color: red;">&rarr;</span> (x-2)(x-3) = (2x+3)(x+2) <span style="color: red;">&rarr;</span> x<sup>2</sup>-5x+6 = 2x<sup>2</sup>+7x+6</p>
+            <p>x<sup>2</sup>-5x+6-(2x<sup>2</sup>+7x+6) <span style="color: red;">&rarr;</span> x<sup>2</sup>-5x+6-2x<sup>2</sup>-7x-6 <span style="color: red;">&rarr;</span> x<sup>2</sup>+12x <span style="color: red;">&rarr;</span> x(x+12)</p>
+            <p>Portanto, a intersecção das funções ocorre em x = 0,-12</p>
+            <p>Substituindo em f(x):</p>
+            <p>f(0) = <sup>4</sup>&frasl;<sub>0+2</sub> -1 = 2-1 = <span class="Answer">1</span></p>
+            <p>f(-12) = <sup>4</sup>&frasl;<sub>(-12)+2</sub> - 1 = <sup>4</sup>&frasl;<sub>-10</sub> -1 = -<sup>4</sup>&frasl;<sub>10</sub> -<sup>10</sup>&frasl;<sub>10</sub> = -<sup>14</sup>&frasl;<sub>10 = <span class="Answer">-<sup>7</sup>&frasl;<sub>5</sub></span></p>
+            <p>Logo, os pontos de intersecção de f(x) e g(x) são: (-12, -<sup>7</sup>&frasl;<sub>5</sub>) e (0, -1)</p>
+            <img src="FractionaryD.png" alt="[4/(x+2)]-1 = -[9/(x-3)]-2">
+        </article>
+
+        <!--Sketch-->
+        <article id="Sketch">
+            <h2 class="Title">Esboço</h2>
+            <p>Para o esboço, apenas encontramos os pontos e os utilizamos.</p>
+            <p><span class="Ex">Exemplo</span>: Seja f(x) = <sup>x</sup>&frasl;<sub>x+2</sub> -3</p>
+            <h4 class="Subtitle">Encontrando as assíntonas</h4>
+            <p><sup>x</sup>&frasl;<sub>x+2</sub> -3 = -<sup>2</sup>&frasl;<sub>x+2</sub> -2</p>
+            <p>Assíntonas: x = -2 e y = -2</p>
+            <h4 class="Subtitle">Encontrando as intersecções com x e y</h4>
+            <p>f(0) = <sup>0</sup>&frasl;<sub>0+2</sub> -3 = 0-3 = -3</p>
+            <p>f(x) = 0, <sup>x</sup>&frasl;<sub>x+2</sub> -3 = 0</p>
+            <p><sup>x</sup>&frasl;<sub>x+2</sub> - <sup>3(x+2)</sup>&frasl;<sub>x+2</sub> = <sup>x-3x-6</sup>&frasl;<sub>x+2</sub> <span style="color: red;">&rarr;</span> -2x-6 = 0 <span style="color: red;">&rarr;</span> 2x = -6 <span style="color: red;">&rarr;</span> x = -3</p>
+            <p>Portanto, temos os pontos (0, -3) e (-3, 0), e asassíntoans x = -2 ey = -4</p>
+            <p>Conectando-os, temos:</p>
+            <img src="FractionaryE.png" alt="[x/(x+2)]-3">
+        </article>
+
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
+        </footer>
+    </main>
+
+
+    <a href="#MainSpace"><img src="BackToTopButton.png" alt="BackToTopButton" id="BackToTopButton"></a>
+</body>
+</html>
 
