@@ -8,9 +8,9 @@ body {
 #MainSpace {
     background-color: #fff;
     align-self: center;
-    width: 75%;
+    width: 60%;
     height: 100%; /*Verify height afterwards, change to 100% if better*/
-    margin-left: 12.5%;
+    margin-left: 25%;
     margin-top: 0%;
     padding: 5px;
     text-align: center;
@@ -33,13 +33,31 @@ img {
 }
 
 /*Navigation*/
-ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    line-height: 25px;
+nav {
+    background-color: #fff;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    margin-left: -15%;
+    margin-top: -5px;
+    text-align: left;
+    line-height: 30px;
+    padding-top: 50px;
 }
 
+.NavC {
+    margin-left: 10%;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 15%;
+    height: 5980px;
+    margin-left: -15%;
+    position: absolute;
+    margin-top: 900px;
+
+}
 /*Conteúdo*/
 .content {
     font-weight: normal;
@@ -55,6 +73,16 @@ ul {
 footer {
     font-size: smaller;
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     text-align: left;
+    margin-left: -25%;
+}
+
+/*Back to top button*/
+#BackToTopButton {
+    position: fixed;
+    bottom: 2%;
+    right: 15%;
+    height: 4%;
+    width: 2%;
 }
