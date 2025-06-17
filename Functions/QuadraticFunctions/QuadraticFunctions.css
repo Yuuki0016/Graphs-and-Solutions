@@ -4,13 +4,21 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*box*/
+#box {
+    background-color: #fff;
+    width: 75%;
+    height: 100%;
+    margin-left: 12.5%;
+}
+
 /*White Box in the center of the screen for better visibility*/
 #MainSpace {
     background-color: #fff;
     align-self: center;
-    width: 60%;
+    width: 80%;
     height: 100%; /*Verify height afterwards, change to 100% if better*/
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 0%;
     padding: 5px;
     text-align: center;
@@ -41,16 +49,6 @@ nav {
 
 .NavC {
     margin-left: 10%;
-}
-
-.box {
-    background-color: #ffffff;
-    width: 15%;
-    height: 8574px;
-    margin-left: -15%;
-    position: absolute;
-    margin-top: 900px;
-
 }
 
 /*Images*/
