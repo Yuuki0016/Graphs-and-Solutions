@@ -11,135 +11,134 @@
     <!--Title-->
     <header><h1>Funções Lineares</h1></header>
 
-    <main id="MainSpace">
+    <div id="box">
+        <main id="MainSpace">
 
-        <!--Navigation-->
-        <nav>
-            <h2 class="NavC">Neste artigo:</h2>
-            <ul>
-                <li><a href="#Abstract">Conceitualização</a></li>
-                <li><a href="#Coefficients">Coeficientes</a></li>
-                <li><a href="#Sketch">Esboço</a></li>
-                <li><a href="#Solving">Resolvendo</a></li>
-                <li><a href="#Intersection">Intersecção</a></li>
-                <li><a href="#Domain">Domínio</a></li>
-            </ul>
-        </nav>
-
-        <!--box-->
-        <p class="box"></p>
-
-        <!--Contextualização-->
-        <div id="Abstract">
-            <h2 class="SubTitle">Conceitualização</h2>
-            <p>Funções Lineares são aquelas cujo gráfico é uma linha reta, ou seja, é uma função polinomial de grau zero ou 1.</p>
-            <p>Também conhecida como função afim, tem a fórmula f(x)=ax+b, onde a e b são constantes.</p>
-            <p>O gráfico de tal função é uma linha reta, onde <strong>a</strong> é o coeficinete angular e <strong>b</strong> é o coeficiente linear.</p>
-            <p>Se a&gt;0, a função é crescente:</p>
-            <img src="xFunction.png" alt="xFunction">
+            <!--Navigation-->
+            <nav>
+                <h2 class="NavC">Neste artigo:</h2>
+                <ul>
+                    <li><a href="#Abstract">Conceitualização</a></li>
+                    <li><a href="#Coefficients">Coeficientes</a></li>
+                    <li><a href="#Sketch">Esboço</a></li>
+                    <li><a href="#Solving">Resolvendo</a></li>
+                    <li><a href="#Intersection">Intersecção</a></li>
+                    <li><a href="#Domain">Domínio</a></li>
+                </ul>
+            </nav>
+    
+            <!--Contextualização-->
+            <div id="Abstract">
+                <h2 class="SubTitle">Conceitualização</h2>
+                <p>Funções Lineares são aquelas cujo gráfico é uma linha <strong>reta</strong>, ou seja, é uma função polinomial de grau <strong>zero</strong> ou <strong>1</strong>.</p>
+                <p>Também conhecida como <u>função afim</u>, tem a fórmula f(x) = ax+b, onde a e b são <strong>constantes</strong>>.</p>
+                <p>O gráfico de tal função é uma linha reta, onde <strong>a</strong> é o coeficinete angular e <strong>b</strong> é o coeficiente linear.</p>
+                <p>Se a&gt;0, a função é crescente:</p>
+                <img src="xFunction.png" alt="xFunction">
+                <br><br>
+                <p>Se a&lt;0, a função é decrescente:</p>
+                <img src="-xFunction.png" alt="-xFunction">
+                <br><br>
+                <p>Nesse contexto, uma função constante também é linear, sendo um <a href="PolynomialFunctions.html">polinômio</a> de grau 0 e, gráficamente, uma reta horizontal</p>
+                <img src="ConstantFunction.png" alt="ConstantFunction">
+            </div>
             <br><br>
-            <p>Se a&lt;0, a função é decrescente:</p>
-            <img src="-xFunction.png" alt="-xFunction">
+    
+            <!--Content-->
+            <h2 class="content">Sabendo o conceito, vamos nos aprofundar nos cáculos.</h2>
             <br><br>
-            <p>Nesse contexto, uma função constante também é linear, sendo um polinômio de grau 0 e, gráficamente, uma reta horizontal</p>
-            <img src="ConstantFunction.png" alt="ConstantFunction">
-        </div>
-        <br><br>
-
-        <!--Content-->
-        <h2 class="content">Sabendo o conceito, vamos nos aprofundar nos cáculos.</h2>
-        <br><br>
-
-        <!--Coefficients-->
-        <article id="Coefficients">
-            <h2 class="SubTitle">Determinação dos Coeficientes Angular e Linear</h2>
-            <!--Angular Coefficient-->
-            <p>Para Determinar o coeficiente angular, usamos uma razão entre um ponto e outro.</p>
-            <p>A fórmula se dá por: a=<sup>y<sub>2</sub>-y<sub>1</sub></sup>&frasl;<sub>x<sub>2</sub>-x<sub>1</sub></sub></p>
-            <h3>Exemplo:</h3>
-            <img src="3x+4Function.png" alt="f(x)=3x+4Function">
-            <p>Dado o gráfico na imagem, percebemos os pontos (0,4), (1,7) e (2,10).</p>
-            <p>Usando a fórmula, podemos encontrar o coeficiente angular. </p>
-            <p>Utilizando dos pontos (0,4) e (1,7), encontramos o seguinte:</p>
-            <p>a= <sup>7-4</sup>&frasl;<sub>1-0</sub> = <sup>3</sup>&frasl;<sub>1</sub> = 3</p>
-            <p>Portanto, o coeficiente angular é igual a 3!</p>
-            <p>Mas e o coeficiente linear?</p>
-            <p>Bom, sabemos que agora f(x)=3x+b</p>
-            <p>Agora é só substituir um ponto aleatório da reta na fórmula!</p>
-            <p>Utilizaremos o ponto (2,10), portanto:</p>
-            <p>f(x)=3x+b <span style="color: #ff0000">&rarr;</span> 10=6+b <span style="color: #ff0000">&rarr;</span> b=10-6 <span style="color: #ff0000">&rarr;</span> b=4</p>
-            <p>Logo, o coeficiente linear é igual a 4!</p>
-            <p>Então, temos nossa fórmula: f(x)=3x+4</p>
-        </article>
-        <br><br>
-
-        <!--Sketch-->
-        <article id="Sketch">
-            <h2 class="SubTitle">Esboço de um gráfico</h2>
-            <p>Tendo em mente a fórmula, como desenhamos?</p>
-            <p>Podemos apenas substituir um valor de x e encontrar o y, ou vice versa.</p>
-            <p>Ao executar algumas vezes, podemos ligar os pontos com uma reta.</p>
-            <p>Exemplo: f(x)=2x+3</p>
-            <p>Vamos substituír x com 0 e 2:</p>
-            <p>f(0)=2*0+3 <span style="color: #ff0000">&rarr;</span> f(0)=3</p>
-            <p>f(2)=2*2+3 <span style="color: #ff0000">&rarr;</span> f(2)=4+3 <span style="color: #ff0000">&rarr;</span> f(2)=7</p>
-            <p>Agora só os ligamos.</p>
-            <img src="2x+3Function.png" alt="f(x)=2x+3Function">
-            <p>Esse é o nosso esboço. Como gráfico é linear, o esboço já é o gráfico em si...</p>
-        </article>
-        <br><br>
-
-        <!--Solving-->
-        <article id="Solving">
-            <h2 class="SubTitle">Resolvendo uma Função</h2>
-            <p>Agora nós sabemos a fórmula e o y em um ponto, mas queremos descobrir o x.</p>
-            <p>Digamos que a função f(x)=3x-2 é igual a 7. Qual é o x?</p>
-            <p>É simples, substitua o valor de f(x) e resolva!</p>
-            <p>7=3x-2 <span style="color: #ff0000">&rarr;</span> 7+2=3x <span style="color: #ff0000">&rarr;</span> 9=3x <span style="color: #ff0000">&rarr;</span> x=9&frasl;3 <span style="color: #ff0000">&rarr;</span> x=3</p>
-            <p>Portanto, f(x)=7 quando x=3</p>
-            <img src="3x-2Function.png" alt="3x-2Function">
-        </article>
-        <br><br>
-
-        <!--Intersection-->
-        <article id="Intersection">
-            <h2 class="SubTitle">Intersecção de Duas Funções</h2>
-            <p>Para encontrar a intersecção de duas funções, apenas as igualamos.</p>
-            <p>Digamos que f(x)=3x+4 e g(x)=-4x+11</p>
-            <p>Vamos começar as igualando:</p>
-            <p>f(x)=g(x)</p>
-            <p>3x+4=-4x+11 <span style="color: #ff0000">&rarr;</span> 3x+4x=11-4 <span style="color: #ff0000">&rarr;</span> 7x=7 <span style="color: #ff0000">&rarr;</span>x=7&frasl;7 <span style="color: #ff0000">&rarr;</span> x=1</p>
-            <p>Descobrindo o x, é só substituílo em uma das funções para descobrir o y:</p>
-            <p>f(x)=3x+4 <span style="color: #ff0000">&rarr;</span> f(1)=3*1+4 <span style="color: #ff0000">&rarr;</span> f(1)=3+4 <span style="color: #ff0000">&rarr;</span> f(1)=7</p>
-            <p>Portanto, f(x) e g(x) se encontram no ponto (1,7)</p>
-            <img src="IntersectionOfTwoFunctions.png" alt="IntersectionOfTwoFunctions">
-            <br>
-            <p>Note que, se as funções forem paralelas, não existe uma solução.</p>
-            <img src="ParallelFunction.png" alt="ParallelFunction">
-        </article>
-        <br><br>
-
-        <!--Domain-->
-        <article id="Domain">
-            <h2 class="SubTitle">Domínio de uma Função</h2>
-            <p>Um domínio se dá quando há um limite até onde a reta se estende.</p>
-            <p>Por exemplo:</p>
-            <p>f(x)=2x+3 (0 &le; x &le; 3)</p>
-            <p>Aqui, f(x) tem um domínio onde x não pode ser maior que 3 e nem menor que 0, ou seja, ele está entre 0 e 3.</p>
-            <img src="DomainFuntion.png" alt="DomainFuntion">
-            <p>Dado o domínio, vamos decobrir a imagem ao igualar x a 0 e 3:</p>
-            <p>f(0)=2*0+3 <span style="color: #ff0000">&rarr;</span> f(0)=3</p>
-            <p>f(3)=2*3+3 <span style="color: #ff0000">&rarr;</span> f(3)=6+3 <span style="color: #ff0000">&rarr;</span> f(3)=9</p>
-            <p>Portanto, f(x)=2x+3 com um domínio onde x está entre 0 e 3, tem uma imagem onde f(x) está entre 3 e 9, ou seja, (3 &le; f(x) &le; 9)</p>
-        </article>
-
-        <!--Footer-->
-        <footer>
-            <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
-        </footer>
-
-        <a href="#MainSpace"><img src="BackToTopButton.png" alt="BackToTopButton" id="BackToTopButton"></a>
-    </main>
-
+    
+            <!--Coefficients-->
+            <article id="Coefficients">
+                <h2 class="SubTitle">Determinação dos Coeficientes Angular e Linear</h2>
+                <!--Angular Coefficient-->
+                <p>Para Determinar o coeficiente angular, usamos uma <strong>razão</strong> entre um ponto e outro.</p>
+                <p>A fórmula se dá por: a = <sup>y<sub>2</sub>-y<sub>1</sub></sup>&frasl;<sub>x<sub>2</sub>-x<sub>1</sub></sub></p>
+                <h3><span class="Ex">Exemplo</span>:</h3>
+                <img src="3x+4Function.png" alt="f(x)=3x+4Function">
+                <p>Dado o gráfico na imagem, percebemos os pontos (0,4), (1,7) e (2,10).</p>
+                <p>Usando a fórmula, podemos encontrar o coeficiente angular. </p>
+                <p>Utilizando dos pontos (0,4) e (1,7), encontramos o seguinte:</p>
+                <p>a = <sup>7-4</sup>&frasl;<sub>1-0</sub> = <sup>3</sup>&frasl;<sub>1</sub> = 3</p>
+                <p>Portanto, o coeficiente angular é igual a 3!</p>
+                <p>Mas e o coeficiente linear?</p>
+                <p>Bom, sabemos que agora f(x)=3x+b</p>
+                <p>Agora é só substituir um ponto aleatório da reta na fórmula!</p>
+                <p>Utilizaremos o ponto (2,10), portanto:</p>
+                <p>f(x) = 3x+b <span style="color: #ff0000">&rarr;</span> 10 = 6+b <span style="color: #ff0000">&rarr;</span> b = 10-6 <span style="color: #ff0000">&rarr;</span> b = 4</p>
+                <p>Logo, o coeficiente linear é igual a 4!</p>
+                <p>Então, temos nossa fórmula: f(x) = 3x+4</p>
+            </article>
+            <br><br>
+    
+            <!--Sketch-->
+            <article id="Sketch">
+                <h2 class="SubTitle">Esboço de um gráfico</h2>
+                <p>Tendo em mente a fórmula, como desenhamos?</p>
+                <p>Podemos apenas substituir um valor de x e encontrar o y, ou vice versa.</p>
+                <p>Ao executar algumas vezes, podemos ligar os pontos com uma reta.</p>
+                <p>Exemplo: f(x) = 2x+3</p>
+                <p>Vamos substituír x com 0 e 2:</p>
+                <p>f(0) = 2*0+3 <span style="color: #ff0000">&rarr;</span> f(0) = 3</p>
+                <p>f(2) = 2*2+3 <span style="color: #ff0000">&rarr;</span> f(2) = 4+3 <span style="color: #ff0000">&rarr;</span> f(2) = 7</p>
+                <p>Agora só os ligamos.</p>
+                <img src="2x+3Function.png" alt="f(x)=2x+3Function">
+                <p>Esse é o nosso esboço. Como gráfico é linear, o esboço já é o gráfico em si...</p>
+            </article>
+            <br><br>
+    
+            <!--Solving-->
+            <article id="Solving">
+                <h2 class="SubTitle">Resolvendo uma Função</h2>
+                <p>Agora nós sabemos a fórmula e o y em um ponto, mas queremos descobrir o x.</p>
+                <p>Digamos que a função f(x) = 3x-2 é igual a 7. Qual é o x?</p>
+                <p>É simples! Substitua o valor de f(x) e resolva!</p>
+                <p>7 = 3x-2 <span style="color: #ff0000">&rarr;</span> 7+2 = 3x <span style="color: #ff0000">&rarr;</span> 9 = 3x <span style="color: #ff0000">&rarr;</span> x = <sup>9</sup>&frasl;<sub>3</sub> <span style="color: #ff0000">&rarr;</span> x = 3</p>
+                <p>Portanto, f(x) = 7 quando x = 3</p>
+                <img src="3x-2Function.png" alt="3x-2Function">
+            </article>
+            <br><br>
+    
+            <!--Intersection-->
+            <article id="Intersection">
+                <h2 class="SubTitle">Intersecção de Duas Funções</h2>
+                <p>Para encontrar a intersecção de duas funções, apenas as igualamos.</p>
+                <p>Digamos que f(x) = 3x+4 e g(x) = -4x+11</p>
+                <p>Vamos começar as igualando:</p>
+                <p>f(x) = g(x)</p>
+                <p>3x+4 = -4x+11 <span style="color: #ff0000">&rarr;</span> 3x+4x = 11-4 <span style="color: #ff0000">&rarr;</span> 7x = 7 <span style="color: #ff0000">&rarr;</span> x = <sup>7</sup>&frasl;<sub>7</sub> <span style="color: #ff0000">&rarr;</span> x = 1</p>
+                <p>Descobrindo o x, é só substituílo em uma das funções para descobrir o y:</p>
+                <p>f(x) = 3x+4 <span style="color: #ff0000">&rarr;</span> f(1) = 3*1+4 <span style="color: #ff0000">&rarr;</span> f(1) = 3+4 <span style="color: #ff0000">&rarr;</span> f(1) = 7</p>
+                <p>Portanto, f(x) e g(x) se encontram no ponto (1, 7)</p>
+                <img src="IntersectionOfTwoFunctions.png" alt="IntersectionOfTwoFunctions">
+                <br><br>
+                <p>Obs: note que, se as funções forem paralelas, não existe uma solução.</p>
+                <img src="ParallelFunction.png" alt="ParallelFunction">
+            </article>
+            <br><br>
+    
+            <!--Domain-->
+            <article id="Domain">
+                <h2 class="SubTitle">Domínio de uma Função</h2>
+                <p>Um domínio se dá quando há um limite até onde a reta se estende.</p>
+                <p>Por exemplo:</p>
+                <p>f(x) = 2x+3 (0 &le; x &le; 3)</p>
+                <p>Aqui, f(x) tem um domínio onde x não pode ser maior que 3 e nem menor que 0, ou seja, ele está entre 0 e 3.</p>
+                <img src="DomainFuntion.png" alt="DomainFuntion">
+                <p>Dado o domínio, vamos decobrir a imagem ao igualar x a 0 e 3:</p>
+                <p>f(0) = 2*0+3 <span style="color: #ff0000">&rarr;</span> f(0) = 3</p>
+                <p>f(3) = 2*3+3 <span style="color: #ff0000">&rarr;</span> f(3) = 6+3 <span style="color: #ff0000">&rarr;</span> f(3) = 9</p>
+                <p>Portanto, f(x) = 2x+3 com um domínio onde x está entre 0 e 3, tem uma imagem onde f(x) está entre 3 e 9, ou seja, (3 &le; f(x) &le; 9)</p>
+            </article>
+    
+            <!--Footer-->
+            <footer>
+                <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
+            </footer>
+    
+            <a href="#MainSpace"><img src="BackToTopButton.png" alt="BackToTopButton" id="BackToTopButton"></a>
+        </main>
+    </div>
+    
 </body>
 </html>
