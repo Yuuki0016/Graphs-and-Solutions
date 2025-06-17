@@ -12,220 +12,219 @@
      <!--Title-->
     <header><h1>Funções Quadráticas</h1></header>
 
-    <main id="MainSpace">
+    <div id="box">
+        <main id="MainSpace">
 
-        <!--Navigation-->
-        <nav>
-            <h2 class="NavC">Neste artigo:</h2>
-            <ul>
-                <li><a href="#Concept">Conceitualização</a></li>
-                <li><a href="#Solving">Resolvendo</a></li>
-                <li><a href="#Discriminant">Discriminante</a></li>
-                <li><a href="#Intersection">Intersecção</a></li>
-                <li><a href="#Vertex">Vértice</a></li>
-                <li><a href="#Displacement">Deslocamento</a></li>
-                <li><a href="#Sketch">Esboço</a></li>
-            </ul>
-        </nav>
-
-        <!--box-->
-        <p class="box"></p>
-
-        <!--Concept-->
-        <article id="Concept">
-            <h2 class="Title">Conceitualização</h2>
-            <p>Uma função qudrática é aquela que tem uma única variável com a forma:</p>
-            <p>f(x)=ax<sup>2</sup>+bx+c, a &NotEqual; 0;</p>
-            <p>Onde x é sua variável e <strong>a</strong>, <strong>b</strong> e <strong>c</strong> são seus coeficientes.</p>
-            <p>O gráfico dessa função é uma parábola.</p>
-            <img src="x²Function.png" alt="x²Function">
-            <p>Se a função for igualada a 0, então obtemos uma <strong>equação quadrática</strong>.</p>
-            <p>Suas soluções são as <strong>raízes</strong> (ou zeros).</p>
-            <p>Uma equação quadrática pode ter duas, uma ou nenhuma solução.</p>
-            <br>
-            <h3 class="Subtitle">Sinais do coeficiente a</h3>
-            <p id="A">Obs: Se a &gt; 0, a parábola abre para cima</p>
-            <img src="ax²Function.png" alt="ax²Function">
+            <!--Navigation-->
+            <nav>
+                <h2 class="NavC">Neste artigo:</h2>
+                <ul>
+                    <li><a href="#Concept">Conceitualização</a></li>
+                    <li><a href="#Solving">Resolvendo</a></li>
+                    <li><a href="#Discriminant">Discriminante</a></li>
+                    <li><a href="#Intersection">Intersecção</a></li>
+                    <li><a href="#Vertex">Vértice</a></li>
+                    <li><a href="#Displacement">Deslocamento</a></li>
+                    <li><a href="#Sketch">Esboço</a></li>
+                </ul>
+            </nav>
+    
+            <!--Concept-->
+            <article id="Concept">
+                <h2 class="Title">Conceitualização</h2>
+                <p>Uma função qudrática é aquela que tem uma única variável com a forma:</p>
+                <p>f(x) = ax<sup>2</sup>+bx+c, a &NotEqual; 0;</p>
+                <p>Onde x é sua variável e <strong>a</strong>, <strong>b</strong> e <strong>c</strong> são seus coeficientes.</p>
+                <p>O gráfico dessa função é uma <strong>parábola</strong>.</p>
+                <img src="x²Function.png" alt="x²Function">
+                <p>Se a função for igualada a 0, então obtemos uma <strong>equação quadrática</strong>.</p>
+                <p>Suas soluções são as <strong>raízes</strong> (ou zeros).</p>
+                <p>Uma equação quadrática pode ter duas, uma ou nenhuma solução.</p>
+                <br>
+                <h3 class="Subtitle">Sinais do coeficiente a</h3>
+                <p id="A"> Se a &gt; 0, a parábola abre para cima</p>
+                <img src="ax²Function.png" alt="ax²Function">
+                <br><br>
+                <p> Se a &lt; 0, a parábola abre para baixo</p>
+                <img src="-ax²Function.png" alt="-ax²Function">
+            </article>
             <br><br>
-            <p>Obs<sub>2</sub>: Se a &lt; 0, a parábola abre para baixo</p>
-            <img src="-ax²Function.png" alt="-ax²Function">
-        </article>
-        <br><br>
-
-        <!--Solving-->
-        <article id="Solving">
-            <h2 class="Title">Resolvendo uma Equação Quadrática</h2>
-            <p>Para resolver uma função quadrática, a igualamos a 0.</p>
-            <p><span class="Ex">Exemplo</span>: f(x)=3x<sup>2</sup>+4x+1</p>
-            <p>Começemos igualando a função a 0:</p>
-            <p>3x<sup>2</sup>+4x+1=0</p>
-            <p>Para resolvermos essa equação, usamos <span style="color: darkviolet;"">Bhaskara</span>:</p>
-            <p>Ela se dá por:</p>
-            <!--Bhaskara-->
-            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>a</mi><mo>.</mo><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>a</mi></mrow></mfrac></mrow></mrow></math>
-            <p>Substituíndo a, b e c na fórmula temos:</p>
-
-            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>3</mi><mo>.</mo><mi>1</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>3</mi></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>16</mi></msup><mo>-</mo><mn>12</mn></mrow></msqrt></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi></msup></mrow></msqrt></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+    
+            <!--Solving-->
+            <article id="Solving">
+                <h2 class="Title">Resolvendo uma Equação Quadrática</h2>
+                <p>Para resolver uma função quadrática, a igualamos a 0.</p>
+                <p><span class="Ex">Exemplo</span>: f(x) = 3x<sup>2</sup>+4x+1</p>
+                <p>Começemos igualando a função a 0:</p>
+                <p>3x<sup>2</sup>+4x+1 = 0</p>
+                <p>Para resolvermos essa equação, usamos <span style="color: darkviolet;">Bhaskara</span>:</p>
+                <p>Ela se dá por:</p>
+                <!--Bhaskara-->
+                <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>a</mi><mo>.</mo><mi>c</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>a</mi></mrow></mfrac></mrow></mrow></math>
+                <p>Substituíndo a, b e c na fórmula temos:</p>
+    
+                <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>3</mi><mo>.</mo><mi>1</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>3</mi></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>16</mi></msup><mo>-</mo><mn>12</mn></mrow></msqrt></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi></msup></mrow></msqrt></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>±</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>+</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>2</mi><mrow><msup></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow class="Answer"><mfrac><mrow><mo>-</mo><mi>1</mi><mrow><msup></msup></mrow></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>-</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mo class="Answer">-1</mo></math>
+                <br><br>
+    
+                <p>Esses dois valores de x são os zeros, ou seja, nossa resposta.</p>
+            </article>
             <br><br>
-
-            <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>+</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>2</mi><mrow><msup></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math class="Answer"><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>1</mi><mrow><msup></msup></mrow></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></mrow></math>
+    
+            <!--Discriminant-->
+            <article id="Discriminant">
+                <h2 class="Title">Determinante de uma Equação</h2>
+                <p>O disciminante é o <strong>Delta (Δ)</strong>. Dado que a fórmula de bháskara pode ser escrita como:</p>
+                <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>Δ</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>a</mi></mrow></mfrac></mrow></mrow></math>
+                <p>Δ=b<sup>2</sup>-4ac</p>
+                <p>Sua função é determinar o número e natureza das raízes.</p>
+                <p>Existem 3 possiblidades:</p>
+    
+                <p>Quando Δ&gt;0</p>
+                <img src="DeltaBFunction.png" alt="D>0Function">
+                <p style="color: darkviolet;">A equação possui 2 raízes reais e distintas</p>
+                <br>
+    
+                <p>Quando Δ=0</p>
+                <img src="DeltaEFunction.png" alt="D=0Function">
+                <p style="color: darkviolet;">A equação possui 2 raízes reais e iguais</p>
+                <br>
+    
+                <p>Quando Δ&lt;0</p>
+                <img src="DeltaLFunction.png" alt="D<0Function">
+                <p style="color: darkviolet;">A equação possui duas raízes complexas.</p>
+                <p>Nesse caso em especial, a equação não tem resposta dentro dos números reais.</p>
+                <p>Ou seja, ela envolve números imaginários, sendo este o "<a href="https://pt.wikipedia.org/wiki/Número_imaginário">i</a>" que equivale a &radic;-1</p>
+                <p>Isto ocorre porque não exite raiz quadrada de números negativos.</p>
+            </article>
             <br><br>
-
-            <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mo>-</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>6</mn></mrow></mfrac></mrow></mrow></math>
-            <math class="Answer"><mrow><mo>=</mo><mo>-1</mo></math>
+    
+            <!--Intersection-->
+            <article id="Intersection">
+                <h2 class="Title">Intersecção de duas funções</h2>
+                <p>A intersecção de duas funções se dá por sua igualdade.</p>
+                <p>Ou seja, são os pontos em comum das funções quadráticas f(x) e g(x).</p>
+                <p>Exemplo: f(x) = x<sup>2</sup>+x+1 e g(x) = -x<sup>2</sup>+2x+4</p>
+                <p>Primeiro encontramos os valores de x dos pontos ao igualarmos as funções.</p>
+                <p>x²+x+1 = -x²+2x+4 <span style="color: #ff0000">&rarr;</span> 2x²-x-3 = 0</p>
+                <p>Agora resolvemos a equação usando bháskara:</p>
+    
+                <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>(-1)</mi><mo>±</mo><msqrt><mrow><msup><mi>(-1)</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>(-3)</mi><mo>.</mo><mi>2</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>2</mi></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><msqrt><mrow><msup><mi>1</mi></msup><mo>-</mo><mn>(-24)</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><msqrt><mrow><msup><mi>25</mi></msup></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>+</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow class="Answer"><mfrac><mrow><mi>3</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>-</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mrow><msup></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mo class="Answer">-1</mo></math>
+                <br><br>
+    
+                <p>Sabemos agora que x= -1 e <sup>3</sup>&frasl;<sub>2</sub>.</p>
+                <p>Então, subtituímos esses valores em uma das equações para encontrar o y</p>
+                <p>f(-1) = (-1)<sup>2</sup>+(-1)+1=1-1+1 = <span class="Answer">1</span></p>
+                <p>f(<sup>3</sup>&frasl;<sub>2</sub>) = (<sup>3</sup>&frasl;<sub>2</sub>)<sup>2</sup>+(<sup>3</sup>&frasl;<sub>2</sub>)+1 = <sup>3<sup>2</sup></sup>&frasl;<sub>2<sup>2</sup></sub> + <sup>3</sup>&frasl;<sub>2</sub>+1 = <sup>9</sup>&frasl;<sub>4</sub>+<sup>6</sup>&frasl;<sub>4</sub>+<sup>4</sup>&frasl;<sub>4</sub> = <span class="Answer"><sup>19</sup>&frasl;<sub>4</sub></span></p>
+                <p>Portanto, os pontos de intersecção de f(x) e g(x) são: (-1, 1) e (<sup>3</sup>&frasl;<sub>2</sub>, <sup>19</sup>&frasl;<sub>4</sub>)</p> 
+                <img src="QuadraticIntersection.png" alt="QuadraticIntersection">       
+            </article>
             <br><br>
-
-            <p>Esses dois valores de x são os zeros, ou seja, nossa resposta.</p>
-        </article>
-        <br><br>
-
-        <!--Discriminant-->
-        <article id="Discriminant">
-            <h2 class="Title">Determinante de uma Equação</h2>
-            <p>O disciminante é o Delta (Δ). Dado que a fórmula de bháskara pode ser escrita como:</p>
-            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>b</mi><mo>±</mo><msqrt><mrow><msup><mi>Δ</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>a</mi></mrow></mfrac></mrow></mrow></math>
-            <p>Δ=b<sup>2</sup>-4ac</p>
-            <p>Sua função é determinar o número e natureza das raízes.</p>
-            <p>Existem 3 possiblidades:</p>
-
-            <p>Quando Δ&gt;0</p>
-            <img src="DeltaBFunction.png" alt="D>0Function">
-            <p style="color: darkviolet;">A equação possui 2 raízes reais e distintas</p>
-            <br>
-
-            <p>Quando Δ=0</p>
-            <img src="DeltaEFunction.png" alt="D=0Function">
-            <p style="color: darkviolet;">A equação possui 2 raízes reais e iguais</p>
-            <br>
-
-            <p>Quando Δ&lt;0</p>
-            <img src="DeltaLFunction.png" alt="D<0Function">
-            <p style="color: darkviolet;">A equação possui duas raízes complexas.</p>
-            <p>Nesse caso em especial, a equação não tem resposta dentro dos números reais.</p>
-            <p>Ou seja, ela envolve números imaginários, sendo este o "<a href="https://pt.wikipedia.org/wiki/Número_imaginário">i</a>" que equivale a &radic;-1</p>
-            <p>Isto ocorre porque não exite raiz quadrada de números negativos.</p>
-        </article>
-        <br><br>
-
-        <!--Intersection-->
-        <article id="Intersection">
-            <h2 class="Title">Intersecção de duas funções</h2>
-            <p>A intersecção de duas funções se dá por sua igualdade.</p>
-            <p>Ou seja, são os pontos em comum das funções quadráticas f(x) e g(x).</p>
-            <p>Exemplo: f(x) = x<sup>2</sup>+x+1 e g(x) = -x<sup>2</sup>+2x+4</p>
-            <p>Primeiro encontramos os valores de x dos pontos ao igualarmos as funções.</p>
-            <p>x²+x+1 = -x²+2x+4 <span style="color: #ff0000">&rarr;</span> 2x²-x-3 = 0</p>
-            <p>Agora resolvemos a equação usando bháskara:</p>
-
-            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>(-1)</mi><mo>±</mo><msqrt><mrow><msup><mi>(-1)</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>(-3)</mi><mo>.</mo><mi>2</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>2</mi></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><msqrt><mrow><msup><mi>1</mi></msup><mo>-</mo><mn>(-24)</mn></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><msqrt><mrow><msup><mi>25</mi></msup></mrow></msqrt></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>±</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
+    
+            <!--Vértex-->
+            <article id="Vertex">
+                <h2 class="Title">Vértice de uma função</h2>
+                <p>O vértice de uma função é encontrado usando a seguinte fórmula:</p>
+                <p>f(x) = a(x-(<sup>-b</sup>&frasl;<sub>2a</sub>))<sup>2</sup>+(c-<sup>b<sup>2</sup></sup>&frasl;<sub>4a</sub>)</p>
+                <p>Onde <sup>-b</sup>&frasl;<sub>2a</sub> é o ponto em x e c-<sup>b<sup>2</sup></sup>&frasl;<sub>4a</sub> é o ponto em y</p>
+                <p>Exemplo: f(x) = x<sup>2</sup>+2x-1</p>
+                <p>Usando a fórmula,temos:</p>
+                <p>x = <sup>-2</sup>&frasl;<sub>2.1</sub> = <span class="Answer">-1</span></p>
+                <p>y = (-1)-<sup>2<sup>2</sup></sup>&frasl;<sub>4.1</sub>=-1-<sup>4</sup>&frasl;<sub>4</sub> = -1-1 = <span class="Answer">-2</span></p>
+                <p>Portanto, o vértice é (-1,-2)</p>
+                <img src="QuadraticVertex.png" alt="QuadraticVertex">
+            </article>
             <br><br>
-
-            <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>+</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math class="Answer"><mrow><mo>=</mo><mrow><mfrac><mrow><mi>3</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <br><br>
-
-            <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mi>1</mi><mo>-</mo><mrow><msup><mi>5</mi></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>4</mi><mrow><msup></msup></mrow></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></mrow></math>
-            <math class="Answer"><mrow><mo>=</mo><mo>-1</mo></math>
-            <br><br>
-
-            <p>Sabemos agora que x= -1 e <sup>3</sup>&frasl;<sub>2</sub>.</p>
-            <p>Então, subtituímos esses valores em uma das equações para encontrar o y</p>
-            <p>f(-1) = (-1)<sup>2</sup>+(-1)+1=1-1+1 = <span class="Answer">1</span></p>
-            <p>f(<sup>3</sup>&frasl;<sub>2</sub>) = (<sup>3</sup>&frasl;<sub>2</sub>)<sup>2</sup>+(<sup>3</sup>&frasl;<sub>2</sub>)+1 = <sup>3<sup>2</sup></sup>&frasl;<sub>2<sup>2</sup></sub> + <sup>3</sup>&frasl;<sub>2</sub>+1 = <sup>9</sup>&frasl;<sub>4</sub>+<sup>6</sup>&frasl;<sub>4</sub>+<sup>4</sup>&frasl;<sub>4</sub> = <span class="Answer"><sup>19</sup>&frasl;<sub>4</sub></span></p>
-            <p>Portanto, os pontos de intersecção de f(x) e g(x) são: (-1,1) e (<sup>3</sup>&frasl;<sub>2</sub>,<sup>19</sup>&frasl;<sub>4</sub>)</p> 
-            <img src="QuadraticIntersection.png" alt="QuadraticIntersection">       
-        </article>
-        <br><br>
-
-        <!--Vértex-->
-        <article id="Vertex">
-            <h2 class="Title">Vértice de uma função</h2>
-            <p>O vértice de uma função é encontrado usando a seguinte fórmula:</p>
-            <p>f(x) = a(x-(<sup>-b</sup>&frasl;<sub>2a</sub>))<sup>2</sup>+(c-<sup>b<sup>2</sup></sup>&frasl;<sub>4a</sub>)</p>
-            <p>Onde <sup>-b</sup>&frasl;<sub>2a</sub> é o ponto em x e c-<sup>b<sup>2</sup></sup>&frasl;<sub>4a</sub> é o ponto em y</p>
-            <p>Exemplo: f(x)= x<sup>2</sup>+2x-1</p>
-            <p>Usando a fórmula,temos:</p>
-            <p>x = <sup>-2</sup>&frasl;<sub>2.1</sub> = -1</p>
-            <p>y = (-1)-<sup>2<sup>2</sup></sup>&frasl;<sub>4.1</sub>=-1-<sup>4</sup>&frasl;<sub>4</sub> = -1-1 = -2</p>
-            <p>Portanto, o vértice é (-1,-2)</p>
-            <img src="QuadraticVertex.png" alt="QuadraticVertex">
-        </article>
-        <br><br>
-
-        <!--Displacement-->
-        <article id="Displacement">
-            <h2 class="Title">Deslocamento de uma função</h2>
-            <p>O deslocamento se dá quando comparamos o vértice com um um ponto.</p>
-            <p>Ou seja, o deslocamento em x é x<sub>1</sub>-x<sub>2</sub> e o deslocamento em y é y<sub>1</sub>-y<sub>2</sub></p>
-            <p>Exemplo<sub>1</sub>: f(x) = x<sup>2</sup>+2x-1. Encontre o deslocamento de f(x) em relação a origem (0,0)</p>
-            <p>Como essa é a mesma função do exemplo do <a href="#Vertex">vértice</a>, podemos pular direto para a comparação.</p>
-            <p>Deslocamento em x = (-1)-0=-1</p>
-            <p>Deslocamento em y = (-2)-0=-2</p>
-            <p>Portanto, f(x) se deslocou -1 unidade em x e -2 unidades em y</p>
-            <img src="QuadraticDisplacement.png" alt="QuadraticDisplacement">
-        </article>
-
-        <!--Sketch-->
-        <article id="Sketch">
-            <h2 class="Title">Esboço de um gráfico</h2>
-            <p>O esboço do nosso gráfico será feito calculando e conectando vários pontos.</p>
-            <p>Seja f(x) = x<sup>2</sup>-4x+3</p>
-            <h3 class="Subtitle">Encontrando os Zeros</h3>
-            <p>Resolvendo f(x) = 0</p>
-            <p>x<sup>2</sup>-4x+3 = 0</p>
-            <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>(-4)</mi><mo>±</mo><msqrt><mrow><msup><mi>(-4)</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>1</mi><mo>.</mo><mi>3</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>1</mi></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>16</mi></msup><mo>-</mo><mn>12</mn></mrow></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi></msup></mrow></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <br><br>
-
-            <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>+</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mi>3</mi></mrow></math>
-            <br><br>
-
-            <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>-</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>2</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
-            <math><mrow><mo>=</mo><mi>1</mi></mrow></math>
-            <br><br>
-
-            <p>Portanto, os zeros são: x=1, 3</p>
-            <h3 class="Subtitle">Encontrando a intersecção com y</h3>
-            <p> f(0) = 3</p>
-            <p>intersecção com y é em y = 3</p>
-            <h3 class="Subtitle">Encontrando o vértice</h3>
-            <p>x = <sup>-(-4)</sup>&frasl;<sub>2.1</sub> = <sup>4</sup>&frasl;<sub>2</sub> = 2</p>
-            <p>y = 3-<sup>(-4)<sup>2</sup></sup>&frasl;<sub>4.1 = 3-<sup>16</sup>&frasl;<sub>4</sub> = 3-4 = -1</p>
-            <p>Portanto, o vértice é em (2, -1)</p>
-            <h3 class="Subtitle">Esboço</h3>
-            <p>Sabemos agora todos os nossos pontos: (3, 0), (1, 0), (0, 3), (2,-1). Então é só conectar.</p>
-            <img src="x²-4x+3Function.png" alt="x²-4x+3Function">
-            <p>É interessante notar que existe um eixo de simetria, o que nos leva para o próximo tópico:</p>
-            <h3 class="Subtitle">Propriedades de uma Função Quadrática no Gráfico</h3>
-            <p>Temos as propriedades dos <a href="#Discriminant">dicriminantes</a> e os sinais do <a href="#A">coeficiente a</a></p>
-            <p>Mas também temos o seguinte:</p>
-            <p>Dado que &#945;&lt;&#946;</p>
-            <p>Quando D&gt;0, <sup>-b</sup>&frasl;<sub>2a</sub>&gt;0 e f(0)&gt;0 &rarr; a&gt;0, b&gt;0</p>
-            <p>Quando D&gt;0, <sup>-b</sup>&frasl;<sub>2a</sub>&lt;0 e f(0)&gt;0 &rarr; a&lt;0, b&lt;0</p>
-            <p>Quando f(0)&lt;0 &rarr; a&lt;0, b&gt;0</p>
-        </article>
-
-         <!--Footer-->
-        <footer>
-            <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
-        </footer>
-    </main>
+    
+            <!--Displacement-->
+            <article id="Displacement">
+                <h2 class="Title">Deslocamento de uma função</h2>
+                <p>O deslocamento se dá quando comparamos o vértice com um um ponto.</p>
+                <p>Ou seja, o deslocamento em x é x<sub>1</sub>-x<sub>2</sub> e o deslocamento em y é y<sub>1</sub>-y<sub>2</sub></p>
+                <p>Exemplo<sub>1</sub>: f(x) = x<sup>2</sup>+2x-1. Encontre o deslocamento de f(x) em relação a origem (0,0)</p>
+                <p>Como essa é a mesma função do exemplo do <a href="#Vertex">vértice</a>, podemos pular direto para a comparação.</p>
+                <p>Deslocamento em x = (-1)-0=-1</p>
+                <p>Deslocamento em y = (-2)-0=-2</p>
+                <p>Portanto, f(x) se deslocou -1 unidade em x e -2 unidades em y</p>
+                <img src="QuadraticDisplacement.png" alt="QuadraticDisplacement">
+            </article>
+    
+            <!--Sketch-->
+            <article id="Sketch">
+                <h2 class="Title">Esboço de um gráfico</h2>
+                <p>O esboço do nosso gráfico será feito calculando e conectando vários pontos.</p>
+                <p>Seja f(x) = x<sup>2</sup>-4x+3</p>
+                <h3 class="Subtitle">Encontrando os Zeros</h3>
+                <p>Resolvendo f(x) = 0</p>
+                <p>x<sup>2</sup>-4x+3 = 0</p>
+                <math><mrow><mn>x</mn><mo>=</mo><mrow><mfrac><mrow><mo>-</mo><mi>(-4)</mi><mo>±</mo><msqrt><mrow><msup><mi>(-4)</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mo>.</mo><mi>1</mi><mo>.</mo><mi>3</mi></mrow></msqrt></mrow><mrow><mn>2</mn><mo>.</mo><mi>1</mi></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>16</mi></msup><mo>-</mo><mn>12</mn></mrow></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><msqrt><mrow><msup><mi>4</mi></msup></mrow></msqrt></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>±</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8321</mn><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>+</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>6</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mi>3</mi></mrow></math>
+                <br><br>
+    
+                <math><mrow><mn>x&#8322</mn><mo>=</mo><mrow><mfrac><mrow><mi>4</mi><mo>-</mo><mrow><msup><mi>2</mi></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mrow><mfrac><mrow><mi>2</mi><mrow><msup></msup></mrow></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></mrow></math>
+                <math><mrow><mo>=</mo><mi>1</mi></mrow></math>
+                <br><br>
+    
+                <p>Portanto, os zeros são: x=1, 3</p>
+                <h3 class="Subtitle">Encontrando a intersecção com y</h3>
+                <p> f(0) = 3</p>
+                <p>intersecção com y é em y = 3</p>
+                <h3 class="Subtitle">Encontrando o vértice</h3>
+                <p>x = <sup>-(-4)</sup>&frasl;<sub>2.1</sub> = <sup>4</sup>&frasl;<sub>2</sub> = 2</p>
+                <p>y = 3-<sup>(-4)<sup>2</sup></sup>&frasl;<sub>4.1 = 3-<sup>16</sup>&frasl;<sub>4</sub> = 3-4 = -1</p>
+                <p>Portanto, o vértice é em (2, -1)</p>
+                <h3 class="Subtitle">Esboço</h3>
+                <p>Sabemos agora todos os nossos pontos: (3, 0), (1, 0), (0, 3), (2,-1). Então é só conectar.</p>
+                <img src="x²-4x+3Function.png" alt="x²-4x+3Function">
+                <p>É interessante notar que existe um eixo de simetria, o que nos leva para o próximo tópico:</p>
+                <h3 class="Subtitle">Propriedades de uma Função Quadrática no Gráfico</h3>
+                <p>Temos as propriedades dos <a href="#Discriminant">dicriminantes</a> e os sinais do <a href="#A">coeficiente a</a></p>
+                <p>Mas também temos o seguinte:</p>
+                <p>Dado que as raízes de f(x) são &#945; e &#946;, e que &#945;&lt;&#946;</p>
+                <p>Quando D&gt;0, <sup>-b</sup>&frasl;<sub>2a</sub>&gt;0 e f(0)&gt;0 &rarr; &#945;&gt;0, &#946;&gt;0</p>
+                <p>Quando D&gt;0, <sup>-b</sup>&frasl;<sub>2a</sub>&lt;0 e f(0)&gt;0 &rarr; &#945;&lt;0, &#946;&lt;0</p>
+                <p>Quando f(0)&lt;0 &rarr; &#945;&lt;0, &#946;&gt;0</p>
+            </article>
+    
+             <!--Footer-->
+            <footer>
+                <p>&copy; 2025 Funções e Gráficos | Todos os direitos reservados</p>
+            </footer>
+        </main>
+    </div>
 
     <a href="#MainSpace"><img src="BackToTopButton.png" alt="BackToTopButton" id="BackToTopButton"></a>
 </body>
