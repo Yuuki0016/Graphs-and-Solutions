@@ -1,3 +1,5 @@
+Esse é um site que busca ensinar a resolver e esboçar gráficos, como também algumas de suas propriedades.
+
 Sources:
 
 Kumon K
